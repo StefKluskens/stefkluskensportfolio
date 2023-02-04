@@ -9,7 +9,7 @@
 }
 .home-navbar-container {
   width: 100%;
-  height: 85px;
+  height: 5%;
   display: flex;
   z-index: 100;
   position: fixed;

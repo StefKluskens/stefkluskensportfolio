@@ -9,6 +9,7 @@
 }
 .gladiator-fighter-navbar-container {
   width: 100%;
+  height: 7%;
   display: flex;
   z-index: 100;
   position: fixed;
@@ -19,6 +20,7 @@
 }
 .gladiator-fighter-navbar {
   width: 100%;
+  height: 100%;
   display: flex;
   z-index: 100;
   max-width: var(--dl-size-size-maxcontent);
@@ -338,7 +340,7 @@
 }
 @media(max-width: 479px) {
   .gladiator-fighter-navbar-container {
-    height: 85px;
+    height: 5%;
   }
   .gladiator-fighter-navbar {
     height: 100%;

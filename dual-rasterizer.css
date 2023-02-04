@@ -9,6 +9,7 @@
 }
 .dual-rasterizer-navbar-container {
   width: 100%;
+  height: 7%;
   display: flex;
   z-index: 100;
   position: fixed;
@@ -19,6 +20,7 @@
 }
 .dual-rasterizer-navbar {
   width: 100%;
+  height: 100%;
   display: flex;
   z-index: 100;
   max-width: var(--dl-size-size-maxcontent);
@@ -314,7 +316,7 @@
 }
 @media(max-width: 479px) {
   .dual-rasterizer-navbar-container {
-    height: 85px;
+    height: 7%;
   }
   .dual-rasterizer-navbar {
     height: 100%;
