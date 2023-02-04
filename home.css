@@ -438,6 +438,9 @@
   color: #ffffff;
 }
 @media(max-width: 991px) {
+  .home-navbar-container {
+    height: 5%;
+  }
   .home-heading {
     text-align: center;
   }
