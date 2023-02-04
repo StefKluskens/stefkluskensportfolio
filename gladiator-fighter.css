@@ -337,6 +337,12 @@
   }
 }
 @media(max-width: 479px) {
+  .gladiator-fighter-navbar-container {
+    height: 85px;
+  }
+  .gladiator-fighter-navbar {
+    height: 100%;
+  }
   .gladiator-fighter-burger-menu {
     margin-left: var(--dl-space-space-doubleunit);
   }

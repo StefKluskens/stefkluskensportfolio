@@ -348,6 +348,12 @@
   }
 }
 @media(max-width: 479px) {
+  .mega-man-navbar-container {
+    height: 85px;
+  }
+  .mega-man-navbar {
+    height: 100%;
+  }
   .mega-man-burger-menu {
     margin-left: var(--dl-space-space-doubleunit);
   }

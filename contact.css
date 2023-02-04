@@ -265,6 +265,12 @@
   }
 }
 @media(max-width: 479px) {
+  .contact-navbar-container {
+    height: 85px;
+  }
+  .contact-navbar {
+    height: 100%;
+  }
   .contact-burger-menu {
     margin-left: var(--dl-space-space-doubleunit);
   }

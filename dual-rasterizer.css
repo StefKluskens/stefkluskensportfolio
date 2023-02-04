@@ -313,6 +313,12 @@
   }
 }
 @media(max-width: 479px) {
+  .dual-rasterizer-navbar-container {
+    height: 85px;
+  }
+  .dual-rasterizer-navbar {
+    height: 100%;
+  }
   .dual-rasterizer-burger-menu {
     margin-left: var(--dl-space-space-doubleunit);
   }

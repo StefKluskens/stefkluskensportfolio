@@ -9,6 +9,7 @@
 }
 .home-navbar-container {
   width: 100%;
+  height: 85px;
   display: flex;
   z-index: 100;
   position: fixed;
@@ -19,6 +20,7 @@
 }
 .home-navbar {
   width: 100%;
+  height: 100%;
   display: flex;
   z-index: 100;
   max-width: var(--dl-size-size-maxcontent);
@@ -299,18 +301,18 @@
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.home-text11 {
+.home-text10 {
   color: #ffffff;
   align-self: flex-start;
   margin-bottom: var(--dl-space-space-doubleunit);
   text-decoration: underline;
 }
-.home-text14 {
+.home-text13 {
   color: rgb(255, 255, 255);
   width: 100%;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text15 {
+.home-text14 {
   color: rgb(255, 255, 255);
   width: 100%;
   margin-bottom: var(--dl-space-space-unit);
@@ -325,11 +327,16 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text16 {
+.home-text15 {
   color: #ffffff;
   align-self: flex-start;
   margin-bottom: var(--dl-space-space-doubleunit);
   text-decoration: underline;
+}
+.home-text19 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  margin-bottom: var(--dl-space-space-unit);
 }
 .home-text20 {
   color: rgb(255, 255, 255);
@@ -366,11 +373,6 @@
   width: 100%;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text27 {
-  color: rgb(255, 255, 255);
-  width: 100%;
-  margin-bottom: var(--dl-space-space-unit);
-}
 .home-languages {
   width: 100%;
   height: auto;
@@ -380,19 +382,19 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text28 {
+.home-text27 {
   color: #ffffff;
   font-size: 3rem;
   align-self: flex-start;
   margin-bottom: var(--dl-space-space-doubleunit);
   text-decoration: underline;
 }
-.home-text31 {
+.home-text30 {
   color: rgb(255, 255, 255);
   width: 100%;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text32 {
+.home-text31 {
   color: rgb(255, 255, 255);
   width: 100%;
   margin-bottom: var(--dl-space-space-unit);
@@ -461,19 +463,19 @@
   .home-image {
     width: 100%;
   }
+  .home-text10 {
+    text-align: center;
+  }
   .home-text11 {
     text-align: center;
   }
-  .home-text12 {
+  .home-text15 {
     text-align: center;
   }
-  .home-text16 {
+  .home-text17 {
     text-align: center;
   }
-  .home-text18 {
-    text-align: center;
-  }
-  .home-text28 {
+  .home-text27 {
     text-align: center;
   }
 }
@@ -523,5 +525,8 @@
   }
   .home-hero-text-container {
     width: 100%;
+  }
+  .home-text06 {
+    color: #ffffff;
   }
 }
