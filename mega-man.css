@@ -1,0 +1,398 @@
+.mega-man-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000000;
+}
+.mega-man-navbar-container {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2d2d2d;
+}
+.mega-man-navbar {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: space-between;
+}
+.mega-man-heading {
+  color: #ffffff;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.mega-man-text02 {
+  font-size: 20px;
+}
+.mega-man-links-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.mega-man-link {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  transition: 0.3s;
+  font-family: Overpass;
+  font-weight: 700;
+  line-height: 1.55;
+  margin-right: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: underline;
+}
+.mega-man-link:hover {
+  color: rgba(255, 255, 255, 0.74);
+}
+.mega-man-link1 {
+  color: #ffffff;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.mega-man-link1:hover {
+  color: rgba(255, 255, 255, 0.74);
+}
+.mega-man-burger-menu {
+  display: none;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mega-man-icon {
+  width: 36px;
+  height: 36px;
+}
+.mega-man-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: var(--dl-space-space-tripleunit);
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #fff;
+}
+.mega-man-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mega-man-close-menu {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mega-man-icon2 {
+  width: 24px;
+  height: 24px;
+}
+.mega-man-links-container1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mega-man-link2 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.mega-man-link3 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.mega-man-link4 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.mega-man-section-separator {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  margin-top: var(--dl-space-space-tenunits);
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #000000;
+}
+.mega-man-section-separator1 {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #000000;
+}
+.mega-man-section-separator2 {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #000000;
+}
+.mega-man-container2 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.mega-man-hero {
+  width: 100%;
+  height: 967px;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-doubleunit);
+  justify-content: flex-start;
+}
+.mega-man-image {
+  top: 55px;
+  right: 27px;
+  width: 525px;
+  height: 268px;
+  position: absolute;
+  object-fit: cover;
+}
+.mega-man-image1 {
+  top: 350px;
+  right: 27px;
+  width: 525px;
+  height: 268px;
+  position: absolute;
+  object-fit: cover;
+}
+.mega-man-image2 {
+  top: 645px;
+  right: 27px;
+  width: 525px;
+  height: 268px;
+  position: absolute;
+  object-fit: cover;
+}
+.mega-man-hero-text-container {
+  top: 59px;
+  left: 24px;
+  width: 609px;
+  height: 677px;
+  display: flex;
+  position: absolute;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mega-man-heading2 {
+  color: #ffffff;
+  font-family: Roboto;
+  margin-bottom: var(--dl-space-space-tripleunit);
+}
+.mega-man-text06 {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Roboto;
+  margin-bottom: var(--dl-space-space-fiveunits);
+}
+.mega-man-text09 {
+  color: #ffffff;
+}
+.mega-man-link6 {
+  display: contents;
+}
+.mega-man-icon4 {
+  fill: #ffffff;
+  width: 113px;
+  height: 71px;
+  margin-top: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.mega-man-footer-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.mega-man-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: space-between;
+}
+.mega-man-social-links {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.mega-man-copyright-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.mega-man-icon6 {
+  fill: #ffffff;
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.mega-man-link7 {
+  color: #ffffff;
+}
+@media(max-width: 991px) {
+  .mega-man-heading {
+    text-align: center;
+  }
+  .mega-man-heading1 {
+    text-align: center;
+  }
+  .mega-man-hero {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mega-man-image {
+    width: 465px;
+    height: 237px;
+  }
+  .mega-man-image1 {
+    width: 465px;
+    height: 237px;
+  }
+  .mega-man-image2 {
+    width: 465px;
+    height: 237px;
+  }
+  .mega-man-hero-text-container {
+    left: 0px;
+    width: 412px;
+    align-items: center;
+    margin-left: var(--dl-space-space-tripleunit);
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .mega-man-heading2 {
+    align-self: flex-start;
+    text-align: center;
+  }
+  .mega-man-text06 {
+    align-self: flex-start;
+    text-align: left;
+  }
+  .mega-man-icon4 {
+    align-self: flex-start;
+  }
+}
+@media(max-width: 767px) {
+  .mega-man-navbar {
+    position: relative;
+  }
+  .mega-man-burger-menu {
+    display: none;
+    padding: var(--dl-space-space-halfunit);
+    margin-left: var(--dl-space-space-tripleunit);
+    border-radius: var(--dl-radius-radius-radius4);
+    background-color: var(--dl-color-gray-black);
+  }
+  .mega-man-icon {
+    fill: var(--dl-color-gray-white);
+  }
+  .mega-man-image {
+    width: 331px;
+    height: 168px;
+  }
+  .mega-man-image1 {
+    top: 254px;
+    right: 27px;
+    width: 331px;
+    height: 168px;
+  }
+  .mega-man-image2 {
+    top: 460px;
+    right: 27px;
+    width: 331px;
+    height: 168px;
+  }
+  .mega-man-hero-text-container {
+    width: 302px;
+    height: auto;
+  }
+  .mega-man-text09 {
+    color: rgb(255, 255, 255);
+  }
+}
+@media(max-width: 479px) {
+  .mega-man-burger-menu {
+    margin-left: var(--dl-space-space-doubleunit);
+  }
+  .mega-man-hero {
+    height: 1178px;
+    padding-top: 0px;
+  }
+  .mega-man-image {
+    top: 513px;
+    left: 0px;
+    right: 0px;
+    width: 90%;
+    height: 16%;
+    margin: auto;
+  }
+  .mega-man-image1 {
+    top: 749px;
+    left: 0px;
+    right: 0px;
+    width: 90%;
+    height: 16%;
+    margin: auto;
+  }
+  .mega-man-image2 {
+    left: 0px;
+    right: 0px;
+    width: 90%;
+    bottom: 17px;
+    height: 16%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+  }
+  .mega-man-hero-text-container {
+    top: 55px;
+    left: 0px;
+    right: 0px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    position: absolute;
+  }
+  .mega-man-icon4 {
+    align-self: flex-start;
+    margin-top: var(--dl-space-space-tripleunit);
+  }
+}
