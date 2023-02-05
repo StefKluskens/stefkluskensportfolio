@@ -7,124 +7,6 @@
   flex-direction: column;
   background-color: #000000;
 }
-.gladiator-fighter-navbar-container {
-  width: 100%;
-  height: 7%;
-  display: flex;
-  z-index: 100;
-  position: fixed;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #2d2d2d;
-}
-.gladiator-fighter-navbar {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  z-index: 100;
-  max-width: var(--dl-size-size-maxcontent);
-  align-items: center;
-  padding-top: var(--dl-space-space-tripleunit);
-  padding-left: var(--dl-space-space-tripleunit);
-  padding-right: var(--dl-space-space-tripleunit);
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-tripleunit);
-  justify-content: space-between;
-}
-.gladiator-fighter-heading {
-  color: #ffffff;
-  font-style: normal;
-  font-family: Overpass;
-  font-weight: 700;
-  line-height: 1.55;
-  text-transform: none;
-  text-decoration: none;
-}
-.gladiator-fighter-text02 {
-  font-size: 20px;
-}
-.gladiator-fighter-links-container {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-}
-.gladiator-fighter-link {
-  color: rgb(255, 255, 255);
-  font-size: 24px;
-  transition: 0.3s;
-  font-family: Overpass;
-  font-weight: 700;
-  line-height: 1.55;
-  margin-right: var(--dl-space-space-tripleunit);
-  text-transform: none;
-  text-decoration: underline;
-}
-.gladiator-fighter-link:hover {
-  color: rgba(255, 255, 255, 0.74);
-}
-.gladiator-fighter-link1 {
-  color: #ffffff;
-  transition: 0.3s;
-  text-decoration: none;
-}
-.gladiator-fighter-link1:hover {
-  color: rgba(255, 255, 255, 0.74);
-}
-.gladiator-fighter-burger-menu {
-  display: none;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.gladiator-fighter-icon {
-  width: 36px;
-  height: 36px;
-}
-.gladiator-fighter-mobile-menu {
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100vh;
-  display: none;
-  padding: var(--dl-space-space-tripleunit);
-  position: absolute;
-  align-items: flex-start;
-  flex-direction: column;
-  background-color: #fff;
-}
-.gladiator-fighter-container1 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: row;
-  justify-content: space-between;
-}
-.gladiator-fighter-close-menu {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.gladiator-fighter-icon2 {
-  width: 24px;
-  height: 24px;
-}
-.gladiator-fighter-links-container1 {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.gladiator-fighter-link2 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.gladiator-fighter-link3 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.gladiator-fighter-link4 {
-  margin-bottom: var(--dl-space-space-unit);
-}
 .gladiator-fighter-section-separator {
   width: 100%;
   height: 1px;
@@ -150,8 +32,9 @@
   flex-direction: column;
   background-color: #000000;
 }
-.gladiator-fighter-container2 {
+.gladiator-fighter-container1 {
   width: 100%;
+  height: 1127px;
   display: flex;
   position: relative;
   align-items: center;
@@ -172,7 +55,7 @@
   justify-content: center;
 }
 .gladiator-fighter-hero-text-container {
-  top: 59px;
+  top: 0px;
   left: 24px;
   width: 609px;
   height: 677px;
@@ -182,18 +65,18 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.gladiator-fighter-heading2 {
+.gladiator-fighter-heading {
   color: #ffffff;
   font-family: Roboto;
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.gladiator-fighter-text06 {
+.gladiator-fighter-text02 {
   color: #ffffff;
 }
-.gladiator-fighter-link6 {
+.gladiator-fighter-link {
   display: contents;
 }
-.gladiator-fighter-icon4 {
+.gladiator-fighter-icon {
   fill: #ffffff;
   width: 113px;
   height: 71px;
@@ -201,27 +84,28 @@
   text-decoration: none;
 }
 .gladiator-fighter-image {
-  top: 55px;
+  top: var(--dl-space-space-tripleunit);
   right: 27px;
-  width: 525px;
-  height: 268px;
+  width: 35%;
+  height: auto;
   margin: auto;
   position: absolute;
   object-fit: cover;
 }
 .gladiator-fighter-image1 {
-  top: 360px;
+  top: 38%;
   right: 27px;
-  width: 525px;
-  height: 268px;
+  width: 35%;
+  height: auto;
   position: absolute;
   object-fit: cover;
 }
 .gladiator-fighter-image2 {
+  top: 71%;
   right: 27px;
-  width: 525px;
-  bottom: 38px;
-  height: 268px;
+  width: 35%;
+  bottom: 0px;
+  height: auto;
   position: absolute;
   object-fit: cover;
 }
@@ -254,23 +138,260 @@
   align-items: center;
   flex-direction: row;
 }
-.gladiator-fighter-icon6 {
+.gladiator-fighter-icon2 {
   fill: #ffffff;
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.gladiator-fighter-link7 {
+.gladiator-fighter-link1 {
   fill: #ffffff;
   color: #ffffff;
 }
+.gladiator-fighter-navbar-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2d2d2d;
+}
+.gladiator-fighter-navbar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 100;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: space-between;
+  background-color: #2d2d2d;
+}
+.gladiator-fighter-heading1 {
+  color: #ffffff;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.gladiator-fighter-text29 {
+  display: none;
+}
+.gladiator-fighter-links-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.gladiator-fighter-navlink {
+  display: none;
+  text-decoration: none;
+}
+.gladiator-fighter-navlink1 {
+  display: none;
+  text-decoration: none;
+}
+.gladiator-fighter-link2 {
+  color: #ffffff;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.gladiator-fighter-link2:hover {
+  color: rgba(255, 255, 255, 0.74);
+}
+.gladiator-fighter-link3 {
+  color: #ffffff;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.gladiator-fighter-link3:hover {
+  color: rgba(255, 255, 255, 0.74);
+}
+.gladiator-fighter-burger-menu {
+  display: none;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.gladiator-fighter-thq-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: 2px;
+}
+.gladiator-fighter-dropdown-toggle {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 2px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.gladiator-fighter-icon4 {
+  width: 24px;
+  height: 24px;
+}
+.gladiator-fighter-dropdown-list {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: 4px;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.gladiator-fighter-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: 2px;
+}
+.gladiator-fighter-dropdown-toggle1 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 4px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.gladiator-fighter-dropdown-toggle1:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.gladiator-fighter-text36 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.gladiator-fighter-dropdown1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: 2px;
+}
+.gladiator-fighter-dropdown-toggle2 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 4px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.gladiator-fighter-dropdown-toggle2:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.gladiator-fighter-text37 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.gladiator-fighter-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: var(--dl-space-space-tripleunit);
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #fff;
+}
+.gladiator-fighter-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.gladiator-fighter-close-menu {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.gladiator-fighter-icon6 {
+  width: 24px;
+  height: 24px;
+}
+.gladiator-fighter-links-container1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.gladiator-fighter-link4 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.gladiator-fighter-link5 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.gladiator-fighter-link6 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+@media(max-width: 1600px) {
+  .gladiator-fighter-text29 {
+    display: none;
+  }
+  .gladiator-fighter-navlink {
+    display: none;
+  }
+  .gladiator-fighter-navlink1 {
+    display: none;
+  }
+}
+@media(max-width: 1200px) {
+  .gladiator-fighter-text29 {
+    display: none;
+  }
+  .gladiator-fighter-navlink {
+    display: none;
+  }
+  .gladiator-fighter-navlink1 {
+    display: none;
+  }
+}
 @media(max-width: 991px) {
-  .gladiator-fighter-heading {
-    text-align: center;
-  }
-  .gladiator-fighter-heading1 {
-    text-align: center;
-  }
   .gladiator-fighter-hero {
     align-items: center;
     flex-direction: column;
@@ -284,108 +405,230 @@
     margin-left: var(--dl-space-space-tripleunit);
     margin-bottom: var(--dl-space-space-fourunits);
   }
-  .gladiator-fighter-heading2 {
+  .gladiator-fighter-heading {
     align-self: flex-start;
     text-align: center;
   }
-  .gladiator-fighter-text06 {
+  .gladiator-fighter-text02 {
     color: rgb(255, 255, 255);
   }
-  .gladiator-fighter-icon4 {
+  .gladiator-fighter-icon {
     align-self: flex-start;
   }
   .gladiator-fighter-image {
-    width: 465px;
-    height: 237px;
+    width: 35%;
+    height: auto;
   }
   .gladiator-fighter-image1 {
-    width: 465px;
-    height: 237px;
+    width: 35%;
+    height: auto;
   }
   .gladiator-fighter-image2 {
-    width: 465px;
-    height: 237px;
+    width: 35%;
+    height: auto;
+  }
+  .gladiator-fighter-navbar-container {
+    height: 5%;
+  }
+  .gladiator-fighter-heading1 {
+    text-align: center;
+  }
+  .gladiator-fighter-text29 {
+    display: none;
+  }
+  .gladiator-fighter-navlink {
+    display: none;
+  }
+  .gladiator-fighter-navlink1 {
+    display: none;
+  }
+  .gladiator-fighter-heading2 {
+    text-align: center;
   }
 }
 @media(max-width: 767px) {
+  .gladiator-fighter-container1 {
+    height: 1493px;
+  }
+  .gladiator-fighter-hero {
+    height: 100%;
+  }
+  .gladiator-fighter-hero-text-container {
+    width: 90%;
+    height: auto;
+    margin-top: var(--dl-space-space-fiveunits);
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .gladiator-fighter-icon {
+    align-self: center;
+  }
+  .gladiator-fighter-image {
+    top: 48%;
+    left: 0px;
+    right: 0px;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: var(--dl-space-space-tripleunit);
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .gladiator-fighter-image1 {
+    top: 65%;
+    left: 0px;
+    right: 0px;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 0px;
+    margin-left: var(--dl-space-space-tripleunit);
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .gladiator-fighter-image2 {
+    left: 0px;
+    right: 0px;
+    width: 50%;
+    bottom: 0px;
+    height: auto;
+    margin: auto;
+    margin-top: 0px;
+    margin-left: var(--dl-space-space-tripleunit);
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
   .gladiator-fighter-navbar {
     position: relative;
+  }
+  .gladiator-fighter-text29 {
+    display: none;
+  }
+  .gladiator-fighter-navlink {
+    display: none;
+  }
+  .gladiator-fighter-navlink1 {
+    display: none;
   }
   .gladiator-fighter-burger-menu {
     display: none;
     padding: var(--dl-space-space-halfunit);
     margin-left: var(--dl-space-space-tripleunit);
     border-radius: var(--dl-radius-radius-radius4);
-    background-color: var(--dl-color-gray-black);
   }
-  .gladiator-fighter-icon {
-    fill: var(--dl-color-gray-white);
+  .gladiator-fighter-icon4 {
+    fill: #ffffff;
+    width: 35px;
+    height: 35px;
   }
-  .gladiator-fighter-hero-text-container {
-    width: 296px;
-    height: auto;
+  .gladiator-fighter-dropdown-list {
+    display: none;
   }
-  .gladiator-fighter-image {
-    width: 331px;
-    height: 219px;
+  .gladiator-fighter-text36 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
   }
-  .gladiator-fighter-image1 {
-    width: 331px;
-    height: 219px;
-  }
-  .gladiator-fighter-image2 {
-    width: 331px;
-    height: 219px;
+  .gladiator-fighter-text37 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
   }
 }
 @media(max-width: 479px) {
-  .gladiator-fighter-navbar-container {
-    height: 5%;
+  .gladiator-fighter-container1 {
+    width: 90%;
+    height: 1855px;
+  }
+  .gladiator-fighter-hero {
+    height: 1816px;
+    align-self: center;
+    margin-top: var(--dl-space-space-fourunits);
+    align-items: center;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    justify-content: flex-start;
+  }
+  .gladiator-fighter-hero-text-container {
+    top: 0px;
+    right: 24px;
+    width: 90%;
+    position: absolute;
+    align-self: center;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .gladiator-fighter-text02 {
+    align-self: flex-start;
+  }
+  .gladiator-fighter-image {
+    top: 50%;
+    left: 0px;
+    right: 0px;
+    width: 90%;
+    margin: auto;
+    position: absolute;
+  }
+  .gladiator-fighter-image1 {
+    top: 65%;
+    left: 0px;
+    right: 0px;
+    width: 90%;
+    margin: auto;
+    position: absolute;
+  }
+  .gladiator-fighter-image2 {
+    top: 70%;
+    left: 0px;
+    right: 0px;
+    width: 90%;
+    bottom: 0px;
+    margin: auto;
+    position: absolute;
   }
   .gladiator-fighter-navbar {
     height: 100%;
   }
+  .gladiator-fighter-heading1 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.55;
+  }
+  .gladiator-fighter-text29 {
+    color: #ffffff;
+    display: flex;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    margin-right: 0px;
+  }
+  .gladiator-fighter-links-container {
+    margin-left: var(--dl-space-space-tripleunit);
+  }
+  .gladiator-fighter-navlink {
+    color: #ffffff;
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    margin-right: var(--dl-space-space-unit);
+  }
+  .gladiator-fighter-navlink1 {
+    color: #ffffff;
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .gladiator-fighter-link2 {
+    display: none;
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .gladiator-fighter-link3 {
+    display: none;
+  }
   .gladiator-fighter-burger-menu {
     margin-left: var(--dl-space-space-doubleunit);
-  }
-  .gladiator-fighter-hero {
-    height: 1666px;
-    padding-top: 0px;
-    margin-bottom: 0px;
-  }
-  .gladiator-fighter-hero-text-container {
-    top: 55px;
-    left: 0px;
-    right: 0px;
-    width: 90%;
-    margin: auto;
-    position: absolute;
-  }
-  .gladiator-fighter-text06 {
-    align-self: flex-start;
-  }
-  .gladiator-fighter-image {
-    top: 779px;
-    left: 0px;
-    right: 0px;
-    width: 90%;
-    margin: auto;
-    position: absolute;
-  }
-  .gladiator-fighter-image1 {
-    top: 1095px;
-    left: 0px;
-    right: 0px;
-    width: 90%;
-    margin: auto;
-    position: absolute;
-  }
-  .gladiator-fighter-image2 {
-    left: 0px;
-    right: 0px;
-    width: 90%;
-    bottom: 23px;
-    margin: auto;
-    position: absolute;
   }
 }
