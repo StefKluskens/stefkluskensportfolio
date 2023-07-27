@@ -85,20 +85,25 @@
 }
 .arctic-dash-container2 {
   display: flex;
+  margin-right: 48px;
   padding-right: 48px;
   flex-direction: column;
+}
+.arctic-dash-link {
+  display: contents;
 }
 .arctic-dash-image {
   top: var(--dl-space-space-tenunits);
   right: 27px;
-  width: 35%;
+  width: 25%;
   height: auto;
   margin: auto;
   position: absolute;
   object-fit: cover;
+  text-decoration: none;
 }
 .arctic-dash-image1 {
-  top: 38%;
+  top: 35%;
   right: 27px;
   width: 35%;
   height: auto;
@@ -106,7 +111,7 @@
   object-fit: cover;
 }
 .arctic-dash-image2 {
-  top: 71%;
+  top: 65%;
   right: 27px;
   width: 35%;
   bottom: 0px;
@@ -149,7 +154,7 @@
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.arctic-dash-link {
+.arctic-dash-link1 {
   fill: #ffffff;
   color: #ffffff;
 }
@@ -204,21 +209,21 @@
   display: none;
   text-decoration: none;
 }
-.arctic-dash-link1 {
+.arctic-dash-link2 {
   color: #ffffff;
   transition: 0.3s;
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
-.arctic-dash-link1:hover {
+.arctic-dash-link2:hover {
   color: rgba(255, 255, 255, 0.74);
 }
-.arctic-dash-link2 {
+.arctic-dash-link3 {
   color: #ffffff;
   transition: 0.3s;
   text-decoration: none;
 }
-.arctic-dash-link2:hover {
+.arctic-dash-link3:hover {
   color: rgba(255, 255, 255, 0.74);
 }
 .arctic-dash-burger-menu {
@@ -365,13 +370,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.arctic-dash-link3 {
-  margin-bottom: var(--dl-space-space-unit);
-}
 .arctic-dash-link4 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .arctic-dash-link5 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.arctic-dash-link6 {
   margin-bottom: var(--dl-space-space-unit);
 }
 @media(max-width: 1600px) {
@@ -644,11 +649,11 @@
     font-style: normal;
     font-weight: 700;
   }
-  .arctic-dash-link1 {
+  .arctic-dash-link2 {
     display: none;
     margin-right: var(--dl-space-space-halfunit);
   }
-  .arctic-dash-link2 {
+  .arctic-dash-link3 {
     display: none;
   }
   .arctic-dash-burger-menu {
