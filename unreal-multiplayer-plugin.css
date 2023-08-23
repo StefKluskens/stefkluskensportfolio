@@ -1,13 +1,12 @@
-.arctic-dash-container {
+.unreal-multiplayer-plugin-container {
   width: 100%;
-  height: auto;
   display: flex;
+  overflow: auto;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  background-color: #000000;
 }
-.arctic-dash-section-separator {
+.unreal-multiplayer-plugin-section-separator {
   width: 100%;
   height: 1px;
   display: flex;
@@ -16,7 +15,7 @@
   flex-direction: column;
   background-color: #000000;
 }
-.arctic-dash-section-separator1 {
+.unreal-multiplayer-plugin-section-separator1 {
   width: 100%;
   height: 1px;
   display: flex;
@@ -24,7 +23,7 @@
   flex-direction: column;
   background-color: #000000;
 }
-.arctic-dash-section-separator2 {
+.unreal-multiplayer-plugin-section-separator2 {
   width: 100%;
   height: 1px;
   display: flex;
@@ -32,16 +31,17 @@
   flex-direction: column;
   background-color: #000000;
 }
-.arctic-dash-container1 {
+.unreal-multiplayer-plugin-container1 {
   width: 100%;
-  height: 1589px;
+  height: 1127px;
   display: flex;
   position: relative;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background-color: #000000;
 }
-.arctic-dash-hero {
+.unreal-multiplayer-plugin-hero {
   width: 100%;
   height: 967px;
   display: flex;
@@ -54,74 +54,57 @@
   padding-bottom: var(--dl-space-space-doubleunit);
   justify-content: center;
 }
-.arctic-dash-hero-text-container {
-  top: 10%;
-  left: 0px;
+.unreal-multiplayer-plugin-hero-text-container {
+  top: 0px;
+  left: 24px;
   width: 609px;
-  height: 907px;
+  height: 793px;
   display: flex;
   position: absolute;
   align-self: flex-start;
   align-items: flex-start;
   flex-direction: column;
 }
-.arctic-dash-heading {
+.unreal-multiplayer-plugin-text {
   color: #ffffff;
-  font-family: Roboto;
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.arctic-dash-text {
+.unreal-multiplayer-plugin-text01 {
   color: #ffffff;
 }
-.arctic-dash-link {
+.unreal-multiplayer-plugin-link {
   display: contents;
 }
-.arctic-dash-image {
-  width: 123px;
-  height: 134px;
-  margin-top: var(--dl-space-space-fiveunits);
-  object-fit: cover;
+.unreal-multiplayer-plugin-icon {
+  fill: #ffffff;
+  width: 113px;
+  height: 71px;
+  margin-top: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
-.arctic-dash-hero1 {
-  width: 100%;
-  display: flex;
-  padding: 48px;
-  max-width: 1400px;
-  min-height: 80vh;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.arctic-dash-container2 {
-  display: flex;
-  margin-right: 48px;
-  padding-right: 48px;
-  flex-direction: column;
-}
-.arctic-dash-link1 {
+.unreal-multiplayer-plugin-link1 {
   display: contents;
 }
-.arctic-dash-image1 {
-  top: var(--dl-space-space-tenunits);
+.unreal-multiplayer-plugin-image {
+  top: var(--dl-space-space-tripleunit);
   right: 27px;
-  width: 25%;
+  width: 35%;
   height: auto;
   margin: auto;
   position: absolute;
   object-fit: cover;
   text-decoration: none;
 }
-.arctic-dash-image2 {
-  top: 35%;
+.unreal-multiplayer-plugin-image1 {
+  top: 38%;
   right: 27px;
   width: 35%;
   height: auto;
   position: absolute;
   object-fit: cover;
 }
-.arctic-dash-image3 {
-  top: 65%;
+.unreal-multiplayer-plugin-image2 {
+  top: 71%;
   right: 27px;
   width: 35%;
   bottom: 0px;
@@ -129,14 +112,15 @@
   position: absolute;
   object-fit: cover;
 }
-.arctic-dash-footer-container {
+.unreal-multiplayer-plugin-footer-container {
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background-color: #000000;
 }
-.arctic-dash-footer {
+.unreal-multiplayer-plugin-footer {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
@@ -148,27 +132,27 @@
   padding-bottom: var(--dl-space-space-tripleunit);
   justify-content: space-between;
 }
-.arctic-dash-social-links {
+.unreal-multiplayer-plugin-social-links {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
 }
-.arctic-dash-copyright-container {
+.unreal-multiplayer-plugin-copyright-container {
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.arctic-dash-icon {
+.unreal-multiplayer-plugin-icon2 {
   fill: #ffffff;
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.arctic-dash-link2 {
+.unreal-multiplayer-plugin-link2 {
   fill: #ffffff;
   color: #ffffff;
 }
-.arctic-dash-navbar-container {
+.unreal-multiplayer-plugin-navbar-container {
   width: 100%;
   height: auto;
   display: flex;
@@ -179,7 +163,7 @@
   justify-content: center;
   background-color: #2d2d2d;
 }
-.arctic-dash-navbar {
+.unreal-multiplayer-plugin-navbar {
   width: 100%;
   height: 100%;
   display: flex;
@@ -194,7 +178,7 @@
   justify-content: space-between;
   background-color: #2d2d2d;
 }
-.arctic-dash-heading1 {
+.unreal-multiplayer-plugin-heading {
   color: #ffffff;
   font-style: normal;
   font-family: Overpass;
@@ -203,51 +187,51 @@
   text-transform: none;
   text-decoration: none;
 }
-.arctic-dash-text56 {
+.unreal-multiplayer-plugin-text23 {
   display: none;
 }
-.arctic-dash-links-container {
+.unreal-multiplayer-plugin-links-container {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
 }
-.arctic-dash-navlink {
+.unreal-multiplayer-plugin-navlink {
   display: none;
   text-decoration: none;
 }
-.arctic-dash-navlink1 {
+.unreal-multiplayer-plugin-navlink1 {
   display: none;
   text-decoration: none;
 }
-.arctic-dash-link3 {
+.unreal-multiplayer-plugin-link3 {
   color: #ffffff;
   transition: 0.3s;
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
-.arctic-dash-link3:hover {
+.unreal-multiplayer-plugin-link3:hover {
   color: rgba(255, 255, 255, 0.74);
 }
-.arctic-dash-link4 {
+.unreal-multiplayer-plugin-link4 {
   color: #ffffff;
   transition: 0.3s;
   text-decoration: none;
 }
-.arctic-dash-link4:hover {
+.unreal-multiplayer-plugin-link4:hover {
   color: rgba(255, 255, 255, 0.74);
 }
-.arctic-dash-burger-menu {
+.unreal-multiplayer-plugin-burger-menu {
   display: none;
   align-items: flex-start;
   flex-direction: column;
 }
-.arctic-dash-thq-dropdown {
+.unreal-multiplayer-plugin-thq-dropdown {
   cursor: pointer;
   display: inline-block;
   position: relative;
   border-radius: 2px;
 }
-.arctic-dash-dropdown-toggle {
+.unreal-multiplayer-plugin-dropdown-toggle {
   fill: #595959;
   color: #595959;
   width: 100%;
@@ -259,11 +243,11 @@
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.arctic-dash-icon2 {
+.unreal-multiplayer-plugin-icon4 {
   width: 24px;
   height: 24px;
 }
-.arctic-dash-dropdown-list {
+.unreal-multiplayer-plugin-dropdown-list {
   left: 0%;
   width: max-content;
   display: none;
@@ -280,13 +264,13 @@
   background-color: var(--dl-color-gray-white);
   list-style-position: inside;
 }
-.arctic-dash-dropdown {
+.unreal-multiplayer-plugin-dropdown {
   cursor: pointer;
   display: inline-block;
   position: relative;
   border-radius: 2px;
 }
-.arctic-dash-dropdown-toggle1 {
+.unreal-multiplayer-plugin-dropdown-toggle1 {
   fill: #595959;
   color: #595959;
   width: 100%;
@@ -299,12 +283,12 @@
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.arctic-dash-dropdown-toggle1:hover {
+.unreal-multiplayer-plugin-dropdown-toggle1:hover {
   fill: #fff;
   color: #fff;
   background-color: #595959;
 }
-.arctic-dash-text63 {
+.unreal-multiplayer-plugin-text30 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -312,13 +296,13 @@
   font-style: normal;
   font-weight: 500;
 }
-.arctic-dash-dropdown1 {
+.unreal-multiplayer-plugin-dropdown1 {
   cursor: pointer;
   display: inline-block;
   position: relative;
   border-radius: 2px;
 }
-.arctic-dash-dropdown-toggle2 {
+.unreal-multiplayer-plugin-dropdown-toggle2 {
   fill: #595959;
   color: #595959;
   width: 100%;
@@ -331,12 +315,12 @@
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.arctic-dash-dropdown-toggle2:hover {
+.unreal-multiplayer-plugin-dropdown-toggle2:hover {
   fill: #fff;
   color: #fff;
   background-color: #595959;
 }
-.arctic-dash-text64 {
+.unreal-multiplayer-plugin-text31 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -344,7 +328,7 @@
   font-style: normal;
   font-weight: 500;
 }
-.arctic-dash-mobile-menu {
+.unreal-multiplayer-plugin-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -356,7 +340,7 @@
   flex-direction: column;
   background-color: #fff;
 }
-.arctic-dash-container3 {
+.unreal-multiplayer-plugin-container2 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -365,59 +349,59 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.arctic-dash-close-menu {
+.unreal-multiplayer-plugin-close-menu {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.arctic-dash-icon4 {
+.unreal-multiplayer-plugin-icon6 {
   width: 24px;
   height: 24px;
 }
-.arctic-dash-links-container1 {
+.unreal-multiplayer-plugin-links-container1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.arctic-dash-link5 {
+.unreal-multiplayer-plugin-link5 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.arctic-dash-link6 {
+.unreal-multiplayer-plugin-link6 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.arctic-dash-link7 {
+.unreal-multiplayer-plugin-link7 {
   margin-bottom: var(--dl-space-space-unit);
 }
 @media(max-width: 1600px) {
-  .arctic-dash-text56 {
+  .unreal-multiplayer-plugin-text23 {
     display: none;
   }
-  .arctic-dash-navlink {
+  .unreal-multiplayer-plugin-navlink {
     display: none;
   }
-  .arctic-dash-navlink1 {
+  .unreal-multiplayer-plugin-navlink1 {
     display: none;
   }
 }
 @media(max-width: 1200px) {
-  .arctic-dash-text56 {
+  .unreal-multiplayer-plugin-text23 {
     display: none;
   }
-  .arctic-dash-navlink {
+  .unreal-multiplayer-plugin-navlink {
     display: none;
   }
-  .arctic-dash-navlink1 {
+  .unreal-multiplayer-plugin-navlink1 {
     display: none;
   }
 }
 @media(max-width: 991px) {
-  .arctic-dash-hero {
+  .unreal-multiplayer-plugin-hero {
     align-items: center;
     flex-direction: column;
     justify-content: center;
   }
-  .arctic-dash-hero-text-container {
+  .unreal-multiplayer-plugin-hero-text-container {
     left: 0px;
     width: 410px;
     height: auto;
@@ -425,88 +409,82 @@
     margin-left: var(--dl-space-space-tripleunit);
     margin-bottom: var(--dl-space-space-fourunits);
   }
-  .arctic-dash-heading {
+  .unreal-multiplayer-plugin-icon {
     align-self: flex-start;
-    text-align: center;
   }
-  .arctic-dash-hero1 {
-    flex-direction: column;
-  }
-  .arctic-dash-container2 {
-    align-items: center;
-    margin-right: 0px;
-    margin-bottom: 32px;
-    padding-right: 0px;
-  }
-  .arctic-dash-image1 {
+  .unreal-multiplayer-plugin-image {
     width: 35%;
     height: auto;
   }
-  .arctic-dash-image2 {
+  .unreal-multiplayer-plugin-image1 {
     width: 35%;
     height: auto;
   }
-  .arctic-dash-image3 {
+  .unreal-multiplayer-plugin-image2 {
     width: 35%;
     height: auto;
   }
-  .arctic-dash-navbar-container {
+  .unreal-multiplayer-plugin-navbar-container {
     height: 5%;
   }
-  .arctic-dash-heading1 {
+  .unreal-multiplayer-plugin-heading {
     text-align: center;
   }
-  .arctic-dash-text56 {
+  .unreal-multiplayer-plugin-text23 {
     display: none;
   }
-  .arctic-dash-navlink {
+  .unreal-multiplayer-plugin-navlink {
     display: none;
   }
-  .arctic-dash-navlink1 {
+  .unreal-multiplayer-plugin-navlink1 {
     display: none;
   }
-  .arctic-dash-heading2 {
+  .unreal-multiplayer-plugin-heading1 {
     text-align: center;
   }
 }
 @media(max-width: 767px) {
-  .arctic-dash-container1 {
-    height: 1718px;
+  .unreal-multiplayer-plugin-container1 {
+    height: 1493px;
   }
-  .arctic-dash-hero {
-    height: 1673px;
+  .unreal-multiplayer-plugin-hero {
+    height: 100%;
   }
-  .arctic-dash-hero-text-container {
+  .unreal-multiplayer-plugin-hero-text-container {
     width: 90%;
     height: auto;
     margin-top: var(--dl-space-space-fiveunits);
     margin-bottom: var(--dl-space-space-tripleunit);
   }
-  .arctic-dash-hero1 {
-    height: 680px;
-    padding-left: 32px;
-    padding-right: 32px;
+  .unreal-multiplayer-plugin-icon {
+    align-self: center;
   }
-  .arctic-dash-container2 {
-    width: 100%;
-    height: 617px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-  }
-  .arctic-dash-image1 {
-    top: 55%;
+  .unreal-multiplayer-plugin-image {
+    top: 48%;
     left: 0px;
     right: 0px;
     width: 50%;
     height: auto;
+    margin: auto;
     position: absolute;
-    margin-top: var(--dl-space-space-halfunit);
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: var(--dl-space-space-halfunit);
+    margin-top: 0px;
+    margin-left: var(--dl-space-space-tripleunit);
+    margin-right: 0px;
+    margin-bottom: 0px;
   }
-  .arctic-dash-image2 {
-    top: 52%;
+  .unreal-multiplayer-plugin-image1 {
+    top: 65%;
+    left: 0px;
+    right: 0px;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 0px;
+    margin-left: var(--dl-space-space-tripleunit);
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .unreal-multiplayer-plugin-image2 {
     left: 0px;
     right: 0px;
     width: 50%;
@@ -514,66 +492,56 @@
     height: auto;
     margin: auto;
     margin-top: 0px;
-    margin-left: 0px;
-    margin-right: auto;
+    margin-left: var(--dl-space-space-tripleunit);
+    margin-right: 0px;
     margin-bottom: 0px;
   }
-  .arctic-dash-image3 {
-    top: 82%;
-    left: 0px;
-    right: 0px;
-    width: 50%;
-    bottom: 0px;
-    height: auto;
-    margin: auto;
-    margin-top: auto;
-    margin-left: 0px;
-    margin-right: auto;
-    margin-bottom: auto;
-  }
-  .arctic-dash-navbar {
+  .unreal-multiplayer-plugin-navbar {
     position: relative;
   }
-  .arctic-dash-text56 {
+  .unreal-multiplayer-plugin-text23 {
     display: none;
   }
-  .arctic-dash-navlink {
+  .unreal-multiplayer-plugin-navlink {
     display: none;
   }
-  .arctic-dash-navlink1 {
+  .unreal-multiplayer-plugin-navlink1 {
     display: none;
   }
-  .arctic-dash-burger-menu {
+  .unreal-multiplayer-plugin-burger-menu {
     display: none;
     padding: var(--dl-space-space-halfunit);
     margin-left: var(--dl-space-space-tripleunit);
     border-radius: var(--dl-radius-radius-radius4);
   }
-  .arctic-dash-icon2 {
+  .unreal-multiplayer-plugin-icon4 {
     fill: #ffffff;
     width: 35px;
     height: 35px;
   }
-  .arctic-dash-dropdown-list {
+  .unreal-multiplayer-plugin-dropdown-list {
     display: none;
   }
-  .arctic-dash-text63 {
+  .unreal-multiplayer-plugin-text30 {
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
   }
-  .arctic-dash-text64 {
+  .unreal-multiplayer-plugin-text31 {
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
   }
 }
 @media(max-width: 479px) {
-  .arctic-dash-container1 {
-    width: 90%;
-    height: 2047px;
+  .unreal-multiplayer-plugin-container {
+    background-color: #000000;
   }
-  .arctic-dash-hero {
+  .unreal-multiplayer-plugin-container1 {
+    width: 90%;
+    height: 1855px;
+  }
+  .unreal-multiplayer-plugin-hero {
     height: 1816px;
     align-self: center;
     margin-top: var(--dl-space-space-fourunits);
@@ -582,7 +550,7 @@
     margin-bottom: 0px;
     justify-content: flex-start;
   }
-  .arctic-dash-hero-text-container {
+  .unreal-multiplayer-plugin-hero-text-container {
     top: 0px;
     right: 24px;
     width: 90%;
@@ -591,16 +559,15 @@
     align-items: center;
     justify-content: flex-start;
   }
-  .arctic-dash-hero1 {
-    padding-top: 32px;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: 32px;
+  .unreal-multiplayer-plugin-image {
+    top: 50%;
+    left: 0px;
+    right: 0px;
+    width: 90%;
+    margin: auto;
+    position: absolute;
   }
-  .arctic-dash-container2 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .arctic-dash-image1 {
+  .unreal-multiplayer-plugin-image1 {
     top: 65%;
     left: 0px;
     right: 0px;
@@ -608,8 +575,8 @@
     margin: auto;
     position: absolute;
   }
-  .arctic-dash-image2 {
-    top: 65%;
+  .unreal-multiplayer-plugin-image2 {
+    top: 70%;
     left: 0px;
     right: 0px;
     width: 90%;
@@ -617,25 +584,17 @@
     margin: auto;
     position: absolute;
   }
-  .arctic-dash-image3 {
-    top: 90%;
-    left: 0px;
-    width: 90%;
-    bottom: 66px;
-    margin: auto;
-    position: absolute;
-  }
-  .arctic-dash-navbar {
+  .unreal-multiplayer-plugin-navbar {
     height: 100%;
   }
-  .arctic-dash-heading1 {
+  .unreal-multiplayer-plugin-heading {
     display: none;
     font-size: 13px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.55;
   }
-  .arctic-dash-text56 {
+  .unreal-multiplayer-plugin-text23 {
     color: #ffffff;
     display: flex;
     font-size: 1em;
@@ -643,30 +602,30 @@
     font-weight: 700;
     margin-right: 0px;
   }
-  .arctic-dash-links-container {
+  .unreal-multiplayer-plugin-links-container {
     margin-left: var(--dl-space-space-tripleunit);
   }
-  .arctic-dash-navlink {
+  .unreal-multiplayer-plugin-navlink {
     color: #ffffff;
     display: flex;
     font-style: normal;
     font-weight: 700;
     margin-right: var(--dl-space-space-unit);
   }
-  .arctic-dash-navlink1 {
+  .unreal-multiplayer-plugin-navlink1 {
     color: #ffffff;
     display: flex;
     font-style: normal;
     font-weight: 700;
   }
-  .arctic-dash-link3 {
+  .unreal-multiplayer-plugin-link3 {
     display: none;
     margin-right: var(--dl-space-space-halfunit);
   }
-  .arctic-dash-link4 {
+  .unreal-multiplayer-plugin-link4 {
     display: none;
   }
-  .arctic-dash-burger-menu {
+  .unreal-multiplayer-plugin-burger-menu {
     margin-left: var(--dl-space-space-doubleunit);
   }
 }
