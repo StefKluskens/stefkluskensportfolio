@@ -30,6 +30,10 @@
     </style>
     <link
       rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
       data-tag="font"
     />
@@ -43,6 +47,10 @@
       href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap"
       data-tag="font"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
     <style>
       [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
           display: flex;
@@ -52,16 +60,16 @@
           transform: rotate(90deg);
         }
     </style>
-    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <link rel="stylesheet" href="./style.css" />
     <div>
       <link href="./projects.css" rel="stylesheet" />
 
       <div class="projects-container">
         <div class="projects-section-separator"></div>
         <div class="projects-section-separator1"></div>
-        <div class="projects-container1">
+        <div class="projects-container01">
           <div class="projects-hero">
             <div class="projects-hero-text-container">
               <h1 class="projects-heading">Projects</h1>
@@ -75,68 +83,88 @@
             </div>
           </div>
         </div>
-        <div class="projects-container2">
-          <a href="arctic-dash.html" class="projects-navlink">
+        <div class="projects-container02">
+          <a href="devolution.html" class="projects-navlink">
             <div class="projects-hero1">
               <div class="projects-hero-text-container1">
-                <h1 class="projects-text03">Arctic Dash</h1>
-                <span class="projects-text04">
+                <h1 class="projects-text03">
+                  <span class="projects-text04">Devolution</span>
+                  <br class="projects-text05" />
+                </h1>
+                <span class="projects-text06">
+                  A group project about a chicken that wants to escape
+                </span>
+              </div>
+              <img
+                alt="image"
+                src="public/playground_assets/devolution-600w.png"
+                class="projects-image"
+              />
+            </div>
+          </a>
+        </div>
+        <div class="projects-container03">
+          <a href="arctic-dash.html" class="projects-navlink1">
+            <div class="projects-hero2">
+              <div class="projects-hero-text-container2">
+                <h1 class="projects-text07">Arctic Dash</h1>
+                <span class="projects-text08">
                   Arctic Dash is a multiplayer puzzle platformer
                 </span>
               </div>
               <img
                 alt="image"
                 src="public/playground_assets/ArcticDashCover.png"
-                class="projects-image"
+                class="projects-image1"
               />
             </div>
           </a>
         </div>
-        <div class="projects-container3">
-          <a href="unreal-project.html" class="projects-navlink1">
-            <div class="projects-hero2">
-              <div class="projects-hero-text-container2">
-                <h1 class="projects-text05">Unreal Engine 5 C++ project</h1>
-                <span class="projects-text06">
+        <div class="projects-container04">
+          <a href="unreal-project.html" class="projects-navlink2">
+            <div class="projects-hero3">
+              <div class="projects-hero-text-container3">
+                <h1 class="projects-text09">Unreal Engine 5 C++ project</h1>
+                <span class="projects-text10">
                   A project to learn C++ in Unreal Engine
                 </span>
               </div>
               <img
                 alt="image"
                 src="public/playground_assets/UnrealProject3.jpg"
-                class="projects-image1"
+                class="projects-image2"
               />
             </div>
           </a>
         </div>
-        <div class="projects-container4">
-          <a href="unreal-multiplayer-plugin.html" class="projects-navlink2">
-            <div class="projects-hero3">
-              <div class="projects-hero-text-container3">
-                <h1 class="projects-text07">
+        <div class="projects-container05">
+          <a href="unreal-multiplayer-plugin.html" class="projects-navlink3">
+            <div class="projects-hero4">
+              <div class="projects-hero-text-container4">
+                <h1 class="projects-text11">
                   Unreal Engine 5 Multiplayer Plugin
                 </h1>
-                <span class="projects-text08">
+                <span class="projects-text12">
                   A plugin made for multiplayer in Unreal Engine 5
                 </span>
               </div>
               <img
                 alt="image"
                 src="public/playground_assets/UnrealMultiplayerPlugin1.jpg"
-                class="projects-image2"
+                class="projects-image3"
               />
             </div>
           </a>
         </div>
-        <div class="projects-container5">
-          <a href="dual-rasterizer.html" class="projects-navlink3">
-            <div class="projects-hero4">
-              <div class="projects-hero-text-container4">
+        <div class="projects-container06">
+          <a href="dual-rasterizer.html" class="projects-navlink4">
+            <div class="projects-hero5">
+              <div class="projects-hero-text-container5">
                 <h1 class="projects-heading1">
                   <span>Dual Rasterizer</span>
                   <br />
                 </h1>
-                <span class="projects-text11">
+                <span class="projects-text15">
                   The dual rasterizer was a project made for my graphics
                   programming class. The goal was to make a rasterizer with 2
                   modes
@@ -145,20 +173,20 @@
               <img
                 alt="image"
                 src="public/playground_assets/dualrasterizer_software-600w.jpg"
-                class="projects-image3"
+                class="projects-image4"
               />
             </div>
           </a>
         </div>
-        <div class="projects-container6">
-          <a href="mega-man.html" class="projects-navlink4">
-            <div class="projects-hero5">
-              <div class="projects-hero-text-container5">
+        <div class="projects-container07">
+          <a href="mega-man.html" class="projects-navlink5">
+            <div class="projects-hero6">
+              <div class="projects-hero-text-container6">
                 <h1 class="projects-heading2">
                   <span>Mega Man</span>
                   <br />
                 </h1>
-                <span class="projects-text14">
+                <span class="projects-text18">
                   <span>
                     A Mega Man clone that I made for a school programming
                     assignment.
@@ -169,20 +197,20 @@
               <img
                 alt="image"
                 src="public/playground_assets/1-600w.jpg"
-                class="projects-image4"
+                class="projects-image5"
               />
             </div>
           </a>
         </div>
-        <div class="projects-container7">
-          <a href="gladiator-fighter.html" class="projects-navlink5">
-            <div class="projects-hero6">
-              <div class="projects-hero-text-container6">
+        <div class="projects-container08">
+          <a href="gladiator-fighter.html" class="projects-navlink6">
+            <div class="projects-hero7">
+              <div class="projects-hero-text-container7">
                 <h1 class="projects-heading3">
                   <span>Gladiator Fighter</span>
                   <br />
                 </h1>
-                <span class="projects-text19">
+                <span class="projects-text23">
                   <span>
                     Gladiator Fighter was the game I made for my first
                     bachelor's degree as my grad work.
@@ -193,7 +221,7 @@
               <img
                 alt="image"
                 src="public/playground_assets/screenshot4-600w.png"
-                class="projects-image5"
+                class="projects-image6"
               />
             </div>
           </a>
@@ -219,16 +247,16 @@
               <span>Game Developer</span>
               <br class="Card-Heading" />
             </a>
-            <h1 class="projects-text26">
+            <h1 class="projects-text30">
               <span>Stef Kluskens</span>
               <br />
             </h1>
             <div class="projects-links-container">
-              <a href="projects.html" class="projects-navlink6">
+              <a href="projects.html" class="projects-navlink7">
                 <span>Projects</span>
                 <br />
               </a>
-              <a href="contact.html" class="projects-navlink7">
+              <a href="contact.html" class="projects-navlink8">
                 <span>Contact</span>
                 <br />
               </a>
@@ -263,7 +291,7 @@
                       data-thq="thq-dropdown-toggle"
                       class="projects-dropdown-toggle1"
                     >
-                      <span class="projects-text33">Projects</span>
+                      <span class="projects-text37">Projects</span>
                     </div>
                   </li>
                   <li
@@ -274,14 +302,14 @@
                       data-thq="thq-dropdown-toggle"
                       class="projects-dropdown-toggle2"
                     >
-                      <span class="projects-text34">Contact</span>
+                      <span class="projects-text38">Contact</span>
                     </div>
                   </li>
                 </ul>
               </div>
             </div>
             <div data-role="MobileMenu" class="projects-mobile-menu">
-              <div class="projects-container8">
+              <div class="projects-container09">
                 <span class="Card-Heading projects-heading5">Logo</span>
                 <div data-role="CloseMobileMenu" class="projects-close-menu">
                   <svg viewBox="0 0 1024 1024" class="projects-icon4">
