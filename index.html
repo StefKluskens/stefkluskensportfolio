@@ -1,751 +1,217 @@
-<!doctype html>
-<html
-  lang="en"
-  data-ws-project="2d142a5a-28d7-4e6c-b5fe-e02a211865ae"
-  data-ws-last-published="2025-06-15T10:55:05.755Z"
->
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <title>Portfolio</title>
+    <meta property="og:title" content="Portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Arial;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
     <link
       rel="stylesheet"
-      type="text/css"
-      href="assets/static/app_generated_index-6937cd5a.DKLlbRRi.css"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
     />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link
-      rel="preload"
-      as="image"
-      imagesrcset="assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg 16w, assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg 32w, assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg 48w, assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg 64w, assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg 96w, assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg 128w, assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg 256w, assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg 384w, assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg 640w, assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg 750w, assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg 828w, assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg 1080w"
-      imagesizes="100vw"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
     />
-    <meta property="og:url" content="https://url/" />
-    <title>Stef Kluskens Portfolio</title>
-    <meta property="og:title" content="Stef Kluskens Portfolio" />
-    <meta
-      name="description"
-      content="Portoflio of my personal and professional work as a game developer."
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
     />
-    <meta
-      property="og:description"
-      content="Portoflio of my personal and professional work as a game developer."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Stef Kluskens Portfolio" />
-    <meta property="og:image" />
-    <meta property="twitter:card" content="summary_large_image" />
-    <link rel="icon" href="assets/logo_r1qaJQiri6sK3rPyq-Sar.svg" />
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Stef Kluskens Portfolio",
-        "url": "https://url"
-      }
-    </script>
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body class="w-body w-body-1">
-    <div class="w-box">
-      <div style="display: contents">
-        <div style="display: contents">
-          <div class="w-html-embed">
-            <style>
-              * {
-                /* Remove preset margins on everything so they can be applied where we want. */
-                margin: 0;
-                /* Make links scroll to their sections smoothly. */
-                scroll-behavior: smooth;
-              }
-            </style>
-          </div>
-          <div class="w-box w-wrapper">
-            <nav class="w-box w-nav-desktop">
-              <div style="display: contents">
-                <div style="display: contents">
-                  <div class="w-box w-primary">
-                    <a href="/" class="w-link w-link-6">Home</a
-                    ><a href="#projects" class="w-link w-link-7">Projects</a
-                    ><a href="#contact" class="w-link w-link-8">Contact</a>
-                  </div>
-                </div>
-              </div>
-            </nav>
-            <div data-state="closed" class="w-collapsible w-nav-mobile">
-              <button
-                type="button"
-                aria-label="Open mobile menu"
-                class="w-button w-button-2"
-                aria-controls="radix-:R56:"
-                aria-expanded="false"
-                data-state="closed"
-              >
-                <div class="w-html-embed w-icon-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="100%"
-                    height="100%"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-menu"
-                  >
-                    <line x1="4" x2="20" y1="12" y2="12"></line>
-                    <line x1="4" x2="20" y1="6" y2="6"></line>
-                    <line x1="4" x2="20" y1="18" y2="18"></line>
+  <body>
+    <div>
+      <link href="./home.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div data-role="Header" class="home-navbar-container">
+          <div class="home-navbar">
+            <a href="index" class="home-heading">
+              <span class="Card-Heading">Stef Kluskens</span>
+              <br class="Card-Heading" />
+              <span>Game Developer</span>
+              <br class="Card-Heading" />
+            </a>
+            <h1 class="home-text04">
+              <span>Stef Kluskens</span>
+              <br />
+            </h1>
+            <div class="home-links-container">
+              <a href="projects" class="home-navlink">
+                <span>Projects</span>
+                <br />
+              </a>
+              <a href="contact" class="home-navlink1">
+                <span>Contact</span>
+                <br />
+              </a>
+              <a href="projects" class="home-link Navbar-Link">Projects</a>
+              <a href="contact" class="home-link1 Navbar-Link">Contact</a>
+            </div>
+            <div data-role="BurgerMenu" class="home-burger-menu">
+              <div data-thq="thq-dropdown" class="home-thq-dropdown list-item">
+                <div
+                  data-thq="thq-dropdown-toggle"
+                  class="home-dropdown-toggle"
+                >
+                  <svg viewBox="0 0 1024 1024" class="home-icon">
+                    <path
+                      d="M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"
+                    ></path>
                   </svg>
                 </div>
-              </button>
-              <div
-                data-state="closed"
-                id="radix-:R56:"
-                hidden=""
-                data-ani="expand"
-                class="w-collapsible-content w-collapsible-content-1"
-              ></div>
+                <ul data-thq="thq-dropdown-list" class="home-dropdown-list">
+                  <li data-thq="thq-dropdown" class="home-dropdown list-item">
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      class="home-dropdown-toggle1"
+                    >
+                      <span class="home-text11">Projects</span>
+                    </div>
+                  </li>
+                  <li data-thq="thq-dropdown" class="home-dropdown1 list-item">
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      class="home-dropdown-toggle2"
+                    >
+                      <span class="home-text12">Contact</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-role="MobileMenu" class="home-mobile-menu">
+              <div class="home-container1">
+                <span class="Card-Heading home-heading1">Logo</span>
+                <div data-role="CloseMobileMenu" class="home-close-menu">
+                  <svg viewBox="0 0 1024 1024" class="home-icon2">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="home-links-container1">
+                <span class="home-link2 Navbar-Link">About</span>
+                <span class="home-link3 Navbar-Link">Experience</span>
+                <span class="home-link4 Navbar-Link">Portofolio</span>
+                <span class="Navbar-Link">Contact</span>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <main class="w-box w-main">
-        <section class="w-box w-section-hero">
-          <div class="w-box w-container-3">
-            <div class="w-box w-content-2">
-              <h1 class="w-heading w-heading-23">Stef Kluskens</h1>
-              <div class="w-box w-image-mobile">
-                <div style="display: contents">
-                  <div style="display: contents">
-                    <img
-                      alt="Picture of me"
-                      width="500"
-                      height="500"
-                      src="assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg"
-                      class="w-image w-image-3"
-                      sizes="100vw"
-                      srcset="
-                        assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg   16w,
-                        assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg   32w,
-                        assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg   48w,
-                        assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg   64w,
-                        assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg   96w,
-                        assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg  128w,
-                        assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg  256w,
-                        assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg  384w,
-                        assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg  640w,
-                        assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg  750w,
-                        assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg  828w,
-                        assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg 1080w
-                      "
-                      decoding="async"
-                      loading="eager"
-                    />
-                  </div>
-                </div>
-              </div>
-              <p class="w-paragraph w-paragraph-4">
-                Welcome to my portfolio! My name is Stef. I&#x27;m a passionate
-                game programmer. Explore my projects and let&#x27;s create
-                something amazing together.
-              </p>
+        <div class="home-section-separator"></div>
+        <div class="home-section-separator1"></div>
+        <div class="home-container2">
+          <div class="home-hero">
+            <div class="home-hero-text-container">
+              <h1 class="home-heading2">
+                Hi, my name is Stef. I am a 24 year old game development student
+                at Digital Arts &amp; Entertainment.
+              </h1>
+              <span class="home-text13">
+                <span>
+                  In 2021 I started my studies to become a game developer,
+                  something I've always wanted to be.
+                </span>
+                <br />
+                <span>
+                  I have a background in electricity, since I was always more of
+                  a technical person rather than a creative one. I also have a
+                  degree as a 3D developer, but wanted to extend my skills by
+                  becoming a game developer at one of the best schools in the
+                  world.
+                </span>
+              </span>
             </div>
-            <div class="w-box w-image-desktop">
-              <div style="display: contents">
-                <div style="display: contents">
-                  <img
-                    alt="Picture of me"
-                    width="500"
-                    height="500"
-                    src="assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg"
-                    class="w-image w-image-3"
-                    sizes="100vw"
-                    srcset="
-                      assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg   16w,
-                      assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg   32w,
-                      assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg   48w,
-                      assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg   64w,
-                      assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg   96w,
-                      assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg  128w,
-                      assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg  256w,
-                      assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg  384w,
-                      assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg  640w,
-                      assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg  750w,
-                      assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg  828w,
-                      assets/jackson-schaal-MXOMvdH0E0A-unsplash_LJ3g1g03b8ed1gQbFj4vf.jpg 1080w
-                    "
-                    decoding="async"
-                    loading="eager"
-                  />
-                </div>
-              </div>
-            </div>
+            <img
+              alt="image"
+              src="public/playground_assets/profile-1500w.jpg"
+              class="home-image"
+            />
           </div>
-        </section>
-        <section id="projects" class="w-box w-section-projects">
-          <div class="w-box w-container-4">
-            <div class="w-box w-header-11">
-              <h2 class="w-heading w-heading-24">Projects</h2>
-            </div>
-            <div class="w-box w-projects">
-              <a href="devolution#projects" class="w-element w-devolution-link"
-                ><div class="w-box w-devolution">
-                  <div data-ani="slide-right" class="w-box w-content-3">
-                    <div class="w-box w-top-2">
-                      <div class="w-text w-text-11">Group Project</div>
-                      <h3 class="w-heading w-heading-28">Devolution</h3>
-                      <p class="w-paragraph w-paragraph-6">
-                        A chicken trying to escape the farm and rediscovering
-                        her connection to her dinosaur ancestors.
-                      </p>
-                    </div>
-                  </div>
-                  <div data-ani="slide-left" class="w-box w-secondary-2">
-                    <img
-                      alt="Laptop on desk"
-                      width="1000"
-                      height="400"
-                      src="assets/devolution-600w_9wyi8JxrDLm7mWi67hC8s.png"
-                      class="w-image w-image-6"
-                      sizes="100vw"
-                      srcset="
-                        assets/devolution-600w_9wyi8JxrDLm7mWi67hC8s.png   16w,
-                        assets/devolution-600w_9wyi8JxrDLm7mWi67hC8s.png   32w,
-                        assets/devolution-600w_9wyi8JxrDLm7mWi67hC8s.png   48w,
-                        assets/devolution-600w_9wyi8JxrDLm7mWi67hC8s.png   64w,
-                        assets/devolution-600w_9wyi8JxrDLm7mWi67hC8s.png   96w,
-                        assets/devolution-600w_9wyi8JxrDLm7mWi67hC8s.png  128w,
-                        assets/devolution-600w_9wyi8JxrDLm7mWi67hC8s.png  256w,
-                        assets/devolution-600w_9wyi8JxrDLm7mWi67hC8s.png  384w,
-                        assets/devolution-600w_9wyi8JxrDLm7mWi67hC8s.png  640w,
-                        assets/devolution-600w_9wyi8JxrDLm7mWi67hC8s.png  750w,
-                        assets/devolution-600w_9wyi8JxrDLm7mWi67hC8s.png  828w,
-                        assets/devolution-600w_9wyi8JxrDLm7mWi67hC8s.png 1080w,
-                        assets/devolution-600w_9wyi8JxrDLm7mWi67hC8s.png 1200w,
-                        assets/devolution-600w_9wyi8JxrDLm7mWi67hC8s.png 1920w,
-                        assets/devolution-600w_9wyi8JxrDLm7mWi67hC8s.png 2048w
-                      "
-                      decoding="async"
-                      loading="lazy"
-                    />
-                  </div></div></a
-              ><a
-                href="arctic-dash#projects"
-                class="w-element w-arctic-dash-link"
-                ><div class="w-box w-arctic-dash">
-                  <div data-ani="slide-right" class="w-box w-content-4">
-                    <div class="w-box w-top-3">
-                      <div class="w-text w-text-12">Group Project</div>
-                      <h3 class="w-heading w-heading-29">Arctic Dash</h3>
-                      <p class="w-paragraph w-paragraph-7">
-                        A co-op puzzle platformer where penguins face a polar
-                        bear in a submarine.
-                      </p>
-                    </div>
-                  </div>
-                  <div data-ani="slide-left" class="w-box w-secondary-3">
-                    <img
-                      alt="Laptop on desk"
-                      width="960"
-                      height="400"
-                      src="assets/ArcticDashCover_TUXnPblUwwwe8HBnGMl12.png"
-                      class="w-image w-image-7"
-                      sizes="100vw"
-                      srcset="
-                        assets/ArcticDashCover_TUXnPblUwwwe8HBnGMl12.png   16w,
-                        assets/ArcticDashCover_TUXnPblUwwwe8HBnGMl12.png   32w,
-                        assets/ArcticDashCover_TUXnPblUwwwe8HBnGMl12.png   48w,
-                        assets/ArcticDashCover_TUXnPblUwwwe8HBnGMl12.png   64w,
-                        assets/ArcticDashCover_TUXnPblUwwwe8HBnGMl12.png   96w,
-                        assets/ArcticDashCover_TUXnPblUwwwe8HBnGMl12.png  128w,
-                        assets/ArcticDashCover_TUXnPblUwwwe8HBnGMl12.png  256w,
-                        assets/ArcticDashCover_TUXnPblUwwwe8HBnGMl12.png  384w,
-                        assets/ArcticDashCover_TUXnPblUwwwe8HBnGMl12.png  640w,
-                        assets/ArcticDashCover_TUXnPblUwwwe8HBnGMl12.png  750w,
-                        assets/ArcticDashCover_TUXnPblUwwwe8HBnGMl12.png  828w,
-                        assets/ArcticDashCover_TUXnPblUwwwe8HBnGMl12.png 1080w,
-                        assets/ArcticDashCover_TUXnPblUwwwe8HBnGMl12.png 1200w,
-                        assets/ArcticDashCover_TUXnPblUwwwe8HBnGMl12.png 1920w
-                      "
-                      decoding="async"
-                      loading="lazy"
-                    />
-                  </div></div></a
-              ><a
-                href="ue5-project#projects"
-                class="w-element w-ue5-project-link"
-                ><div class="w-box w-ue5-project">
-                  <div data-ani="slide-right" class="w-box w-content-5">
-                    <div class="w-box w-top-4">
-                      <div class="w-text w-text-13">Personal Project</div>
-                      <h3 class="w-heading w-heading-32">UE5 Project</h3>
-                      <p class="w-paragraph w-paragraph-8">
-                        An Unreal Engine 5 project to learn new systems in the
-                        engine.
-                      </p>
-                    </div>
-                  </div>
-                  <div data-ani="slide-left" class="w-box w-secondary-4">
-                    <img
-                      alt="Laptop on desk"
-                      width="1920"
-                      height="1080"
-                      src="assets/UnrealProject3_dOyHik_hUGbbcaMXz6TBc.jpg"
-                      class="w-image w-image-10"
-                      sizes="100vw"
-                      srcset="
-                        assets/UnrealProject3_dOyHik_hUGbbcaMXz6TBc.jpg   16w,
-                        assets/UnrealProject3_dOyHik_hUGbbcaMXz6TBc.jpg   32w,
-                        assets/UnrealProject3_dOyHik_hUGbbcaMXz6TBc.jpg   48w,
-                        assets/UnrealProject3_dOyHik_hUGbbcaMXz6TBc.jpg   64w,
-                        assets/UnrealProject3_dOyHik_hUGbbcaMXz6TBc.jpg   96w,
-                        assets/UnrealProject3_dOyHik_hUGbbcaMXz6TBc.jpg  128w,
-                        assets/UnrealProject3_dOyHik_hUGbbcaMXz6TBc.jpg  256w,
-                        assets/UnrealProject3_dOyHik_hUGbbcaMXz6TBc.jpg  384w,
-                        assets/UnrealProject3_dOyHik_hUGbbcaMXz6TBc.jpg  640w,
-                        assets/UnrealProject3_dOyHik_hUGbbcaMXz6TBc.jpg  750w,
-                        assets/UnrealProject3_dOyHik_hUGbbcaMXz6TBc.jpg  828w,
-                        assets/UnrealProject3_dOyHik_hUGbbcaMXz6TBc.jpg 1080w,
-                        assets/UnrealProject3_dOyHik_hUGbbcaMXz6TBc.jpg 1200w,
-                        assets/UnrealProject3_dOyHik_hUGbbcaMXz6TBc.jpg 1920w,
-                        assets/UnrealProject3_dOyHik_hUGbbcaMXz6TBc.jpg 2048w,
-                        assets/UnrealProject3_dOyHik_hUGbbcaMXz6TBc.jpg 3840w
-                      "
-                      decoding="async"
-                      loading="lazy"
-                    />
-                  </div></div></a
-              ><a
-                href="ue5-multiplayer-plugin#projects"
-                class="w-element w-ue5-mp-link"
-                ><div class="w-box w-ue5-mp">
-                  <div data-ani="slide-right" class="w-box w-content-6">
-                    <div class="w-box w-top-5">
-                      <div class="w-text w-text-14">Personal Project</div>
-                      <h3 class="w-heading w-heading-33">
-                        UE5 Multiplayer plugin
-                      </h3>
-                      <p class="w-paragraph w-paragraph-9">
-                        An Unreal Engine 5 plugin for networked multiplayer.
-                      </p>
-                    </div>
-                  </div>
-                  <div data-ani="slide-left" class="w-box w-secondary-5">
-                    <img
-                      alt="Laptop on desk"
-                      width="1920"
-                      height="1080"
-                      src="assets/UnrealMultiplayerPlugin1_1yXH27E5ppJPgGT-56YCD.jpg"
-                      class="w-image w-image-11"
-                      sizes="100vw"
-                      srcset="
-                        assets/UnrealMultiplayerPlugin1_1yXH27E5ppJPgGT-56YCD.jpg   16w,
-                        assets/UnrealMultiplayerPlugin1_1yXH27E5ppJPgGT-56YCD.jpg   32w,
-                        assets/UnrealMultiplayerPlugin1_1yXH27E5ppJPgGT-56YCD.jpg   48w,
-                        assets/UnrealMultiplayerPlugin1_1yXH27E5ppJPgGT-56YCD.jpg   64w,
-                        assets/UnrealMultiplayerPlugin1_1yXH27E5ppJPgGT-56YCD.jpg   96w,
-                        assets/UnrealMultiplayerPlugin1_1yXH27E5ppJPgGT-56YCD.jpg  128w,
-                        assets/UnrealMultiplayerPlugin1_1yXH27E5ppJPgGT-56YCD.jpg  256w,
-                        assets/UnrealMultiplayerPlugin1_1yXH27E5ppJPgGT-56YCD.jpg  384w,
-                        assets/UnrealMultiplayerPlugin1_1yXH27E5ppJPgGT-56YCD.jpg  640w,
-                        assets/UnrealMultiplayerPlugin1_1yXH27E5ppJPgGT-56YCD.jpg  750w,
-                        assets/UnrealMultiplayerPlugin1_1yXH27E5ppJPgGT-56YCD.jpg  828w,
-                        assets/UnrealMultiplayerPlugin1_1yXH27E5ppJPgGT-56YCD.jpg 1080w,
-                        assets/UnrealMultiplayerPlugin1_1yXH27E5ppJPgGT-56YCD.jpg 1200w,
-                        assets/UnrealMultiplayerPlugin1_1yXH27E5ppJPgGT-56YCD.jpg 1920w,
-                        assets/UnrealMultiplayerPlugin1_1yXH27E5ppJPgGT-56YCD.jpg 2048w,
-                        assets/UnrealMultiplayerPlugin1_1yXH27E5ppJPgGT-56YCD.jpg 3840w
-                      "
-                      decoding="async"
-                      loading="lazy"
-                    />
-                  </div></div
-              ></a>
-            </div>
+        </div>
+        <div class="home-skills">
+          <div class="home-education">
+            <h2 class="home-text17">
+              <span class="Section-Heading home-text18">Education</span>
+              <br />
+            </h2>
+            <span class="home-text20">
+              * Bachelor degree – Digital Arts and Entertainment – Major Game
+              Development – Howest (On Going)
+            </span>
+            <span class="home-text21">
+              * Bachelor degree – Multimedia and Communication Technology –
+              Major 3D Developer – Karel de Grote
+            </span>
           </div>
-        </section>
-      </main>
-      <div style="display: contents">
-        <div style="display: contents">
-          <footer id="contact" class="w-box w-footer">
-            <div class="w-box w-bottom">
-              <div class="w-box w-container-5">
-                <div class="w-text w-text-9">Stef Kluskens</div>
-                <div class="w-element w-links-1">
-                  <a
-                    href="https://www.linkedin.com/in/stef-kluskens/"
-                    class="w-link w-linked-in"
-                    ><img
-                      alt=""
-                      width="50"
-                      height="50"
-                      src="assets/icons8-linkedin-50_xibFCqXRmEeJ3e-cpSIHb.png"
-                      class="w-image"
-                      sizes="100vw"
-                      srcset="
-                        assets/icons8-linkedin-50_xibFCqXRmEeJ3e-cpSIHb.png  16w,
-                        assets/icons8-linkedin-50_xibFCqXRmEeJ3e-cpSIHb.png  32w,
-                        assets/icons8-linkedin-50_xibFCqXRmEeJ3e-cpSIHb.png  48w,
-                        assets/icons8-linkedin-50_xibFCqXRmEeJ3e-cpSIHb.png  64w,
-                        assets/icons8-linkedin-50_xibFCqXRmEeJ3e-cpSIHb.png  96w,
-                        assets/icons8-linkedin-50_xibFCqXRmEeJ3e-cpSIHb.png 128w
-                      "
-                      decoding="async"
-                      loading="lazy" /></a
-                  ><a
-                    href="https://github.com/StefKluskens"
-                    class="w-link w-github"
-                    ><img
-                      alt=""
-                      width="50"
-                      height="50"
-                      src="assets/icons8-github-50_-t9Hm5FvV_YFD_kePsM3Z.png"
-                      class="w-image"
-                      sizes="100vw"
-                      srcset="
-                        assets/icons8-github-50_-t9Hm5FvV_YFD_kePsM3Z.png  16w,
-                        assets/icons8-github-50_-t9Hm5FvV_YFD_kePsM3Z.png  32w,
-                        assets/icons8-github-50_-t9Hm5FvV_YFD_kePsM3Z.png  48w,
-                        assets/icons8-github-50_-t9Hm5FvV_YFD_kePsM3Z.png  64w,
-                        assets/icons8-github-50_-t9Hm5FvV_YFD_kePsM3Z.png  96w,
-                        assets/icons8-github-50_-t9Hm5FvV_YFD_kePsM3Z.png 128w
-                      "
-                      decoding="async"
-                      loading="lazy"
-                  /></a>
-                </div>
-              </div>
-            </div>
-          </footer>
-          <div style="display: contents">
-            <div style="display: contents">
-              <div class="w-html-embed">
-                <style>
-                  :root {
-                    --ani-duration: var(--duration-default, 0.2s);
-                    --ani-delay: 0s;
-                    --ani-slide-offset: 20%;
-                    --ani-zoom-in-scale: 1;
-                    --ani-zoom-out-scale: 0.85;
-                    --ani-flip-rotate: 30deg;
-                    --ani-easing: var(--easing-default, ease);
-                    --ani-fill-mode: forwards;
-                  }
-                  [data-ani]:not([data-ani-children]),
-                  [data-ani-children]:not([data-ani-progress]) > * {
-                    animation-duration: var(--ani-duration);
-                    animation-delay: var(--ani-delay);
-                    animation-timing-function: var(--ani-easing);
-                    animation-fill-mode: var(--ani-fill-mode);
-                    opacity: 0;
-                  }
-                  [data-ani-progress]:not([data-ani-children]),
-                  [data-ani-children]:not([data-ani]) > * {
-                    transition-property: opacity, transform;
-                    transition-duration: var(--ani-duration);
-                    transition-timing-function: var(--ani-easing);
-                    opacity: 0;
-                  }
-                  @keyframes fadeIn {
-                    from {
-                      opacity: 0;
-                    }
-                    to {
-                      opacity: 1;
-                    }
-                  }
-                  @keyframes fadeOut {
-                    from {
-                      opacity: 1;
-                    }
-                    to {
-                      opacity: 0;
-                    }
-                  }
-                  [data-ani-children][data-ani="fade"] > .in,
-                  [data-ani="fade"]:where(
-                      .in:not([data-state]),
-                      [data-state$="open"],
-                      [data-state="active"]
-                    ) {
-                    animation-name: fadeIn;
-                  }
-                  [data-ani-children][data-ani="fade"] > .out,
-                  [data-ani="fade"]:where(
-                      .out:not([data-state]),
-                      [data-state="closed"],
-                      [data-state="inactive"]
-                    ) {
-                    animation-name: fadeOut;
-                  }
-                  @keyframes slideIn {
-                    from {
-                      opacity: 0;
-                      translate: var(--ani-slide-transform);
-                    }
-                    to {
-                      opacity: 1;
-                      translate: none;
-                    }
-                  }
-                  @keyframes slideOut {
-                    from {
-                      opacity: 1;
-                      translate: none;
-                    }
-                    to {
-                      opacity: 0;
-                      translate: var(--ani-slide-transform);
-                    }
-                  }
-                  [data-ani-children][data-ani|="slide"] > .in,
-                  [data-ani|="slide"]:where(
-                      .in:not([data-state]),
-                      [data-state$="open"],
-                      [data-state="active"]
-                    ) {
-                    animation-name: slideIn;
-                  }
-                  [data-ani-children][data-ani|="slide"] > .out,
-                  [data-ani|="slide"]:where(
-                      .out:not([data-state]),
-                      [data-state="closed"],
-                      [data-state="inactive"]
-                    ) {
-                    animation-name: slideOut;
-                  }
-                  [data-ani="slide-up"] {
-                    --ani-slide-transform: 0 var(--ani-slide-offset);
-                  }
-                  [data-ani="slide-down"] {
-                    --ani-slide-transform: 0 calc(-1 * var(--ani-slide-offset));
-                  }
-                  [data-ani="slide-left"] {
-                    --ani-slide-transform: var(--ani-slide-offset);
-                  }
-                  [data-ani="slide-right"] {
-                    --ani-slide-transform: calc(-1 * var(--ani-slide-offset));
-                  }
-                  @keyframes zoomIn {
-                    from {
-                      opacity: 0;
-                      scale: var(--ani-zoom-out-scale);
-                    }
-                    to {
-                      opacity: 1;
-                      scale: 1;
-                    }
-                  }
-                  @keyframes zoomOut {
-                    from {
-                      opacity: 1;
-                      scale: 1;
-                    }
-                    to {
-                      opacity: 0;
-                      scale: var(--ani-zoom-in-scale);
-                    }
-                  }
-                  [data-ani-children][data-ani="zoom"] > .in,
-                  [data-ani|="zoom"]:where(
-                      .in:not([data-state]),
-                      [data-state$="open"],
-                      [data-state="active"]
-                    ) {
-                    animation-name: zoomIn;
-                  }
-                  [data-ani-children][data-ani="zoom"] > .out,
-                  [data-ani|="zoom"]:where(
-                      .out:not([data-state]),
-                      [data-state="closed"],
-                      [data-state="inactive"]
-                    ) {
-                    animation-name: zoomOut;
-                  }
-                  [data-ani-children][data-ani-progress="zoom"] > *,
-                  [data-ani-progress="zoom"]:not([data-ani-children]) {
-                    transform: scale(var(--ani-zoom-out-scale));
-                  }
-                  @keyframes flipInY {
-                    from {
-                      rotate: y var(--ani-flip-rotate);
-                      perspective: 2000px;
-                      opacity: 0;
-                    }
-                    to {
-                      rotate: y 0;
-                      opacity: 1;
-                    }
-                  }
-                  @keyframes flipOutY {
-                    from {
-                      rotate: y 0;
-                      opacity: 1;
-                    }
-                    to {
-                      perspective: 2000px;
-                      rotate: y var(--ani-flip-rotate);
-                      opacity: 0;
-                    }
-                  }
-                  @keyframes flipInX {
-                    from {
-                      perspective: 2000px;
-                      rotate: x var(--ani-flip-rotate);
-                      opacity: 0;
-                    }
-                    to {
-                      rotate: x 0;
-                      opacity: 1;
-                    }
-                  }
-                  @keyframes flipOutX {
-                    from {
-                      rotate: x 0;
-                      opacity: 1;
-                    }
-                    to {
-                      perspective: 2000px;
-                      rotate: x var(--ani-flip-rotate);
-                      opacity: 0;
-                    }
-                  }
-                  [data-ani-children][data-ani="flip-y"] > .in,
-                  [data-ani="flip-y"]:where(
-                      .in:not([data-state]),
-                      [data-state$="open"],
-                      [data-state="active"]
-                    ) {
-                    animation-name: flipInY;
-                  }
-                  [data-ani-children][data-ani="flip-x"] > .in,
-                  [data-ani="flip-x"]:where(
-                      .in:not([data-state]),
-                      [data-state$="open"],
-                      [data-state="active"]
-                    ) {
-                    animation-name: flipInX;
-                  }
-                  [data-ani-children][data-ani="flip-y"] > .out,
-                  [data-ani="flip-y"]:where(
-                      .out:not([data-state]),
-                      [data-state="closed"],
-                      [data-state="inactive"]
-                    ) {
-                    animation-name: flipOutY;
-                  }
-                  [data-ani-children][data-ani="flip-x"] > .out,
-                  [data-ani="flip-x"]:where(
-                      .out:not([data-state]),
-                      [data-state="closed"],
-                      [data-state="inactive"]
-                    ) {
-                    animation-name: flipOutX;
-                  }
-                  @keyframes expandDown {
-                    from {
-                      height: 0;
-                    }
-                    to {
-                      height: var(--newHeight);
-                    }
-                  }
-                  @keyframes expandUp {
-                    from {
-                      height: var(--newHeight);
-                    }
-                    to {
-                      height: 0;
-                    }
-                  }
-                  [data-ani="expand"],
-                  [data-ani="expand"][data-state="open"],
-                  [data-ani="expand"].in {
-                    --newHeight: var(
-                      --custom-height,
-                      var(
-                        --radix-accordion-content-height,
-                        var(--radix-collapsible-content-height, 100%)
-                      )
-                    );
-                    overflow: hidden;
-                    opacity: 1;
-                  }
-                  [data-ani-children][data-ani="expand"] > .in,
-                  [data-ani="expand"]:where(
-                      .in:not([data-state]),
-                      [data-state$="open"],
-                      [data-state="active"]
-                    ) {
-                    animation: expandDown var(--ani-duration) var(--ani-easing);
-                  }
-                  [data-ani-children][data-ani="expand"] > .out,
-                  [data-ani="expand"]:where(
-                      .out:not([data-state]),
-                      [data-state="closed"],
-                      [data-state="inactive"]
-                    ) {
-                    animation: expandUp var(--ani-duration) var(--ani-easing);
-                  }
-                  @media (prefers-reduced-motion: reduce) {
-                    [data-ani]:not([data-ani-children]),
-                    [data-ani-progress]:not([data-ani-children]),
-                    [data-ani-children] > * {
-                      opacity: 1;
-                      transform: none;
-                      animation: none;
-                      rotate: none;
-                      scale: none;
-                      translate: none;
-                    }
-                  }
-                </style>
-              </div>
+          <div class="home-skills1">
+            <h2 class="home-text22">
+              <br />
+              <span class="Section-Heading home-text24">Skills</span>
+              <br />
+            </h2>
+            <span class="home-text26">* C++</span>
+            <span class="home-text27">* C#</span>
+            <span class="home-text28">* Unreal Engine 4/5</span>
+            <span class="home-text29">* Unity</span>
+            <span class="home-text30">* Win32</span>
+            <span class="home-text31">* Photoshop</span>
+            <span class="home-text32">* Blender</span>
+            <span class="home-text33">* Git</span>
+          </div>
+          <div class="home-languages">
+            <h2 class="home-text34">
+              <span>Languages</span>
+              <br />
+            </h2>
+            <span class="home-text37">* Dutch (Native)</span>
+            <span class="home-text38">* English</span>
+          </div>
+        </div>
+        <div class="home-footer-container">
+          <div class="home-footer">
+            <div class="home-social-links"></div>
+            <div class="home-copyright-container">
+              <svg viewBox="0 0 1024 1024" class="home-icon4">
+                <path
+                  d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"
+                ></path>
+              </svg>
+              <span class="home-link6 Anchor">Copyright, 2023</span>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <script id="vike_pageContext" type="application/json">
-      {
-        "_urlRewrite": null,
-        "pageId": "/pages/index",
-        "routeParams": {},
-        "data": {
-          "url": "https://url/",
-          "system": { "params": {}, "search": {}, "origin": "https://url" },
-          "resources": {},
-          "pageMeta": {
-            "title": "Stef Kluskens Portfolio",
-            "description": "Portoflio of my personal and professional work as a game developer.",
-            "excludePageFromSearch": false,
-            "language": "!undefined",
-            "socialImageAssetName": "personal-template-cover_h7h_s-a7B9ewj-pjH2g4Q.png",
-            "socialImageUrl": "!undefined",
-            "status": "!undefined",
-            "redirect": "!undefined",
-            "custom": []
-          }
-        }
-      }
-    </script>
-    <script id="vike_globalContext" type="application/json">
-      {}
-    </script>
-    <script
-      src="assets/entries/entry-server-routing.o5NOBO9l.js"
-      type="module"
-      async
-    ></script>
-    <link
-      rel="modulepreload"
-      href="assets/entries/pages_index.zUXDAcvj.js"
-      as="script"
-      type="text/javascript"
-    /><link
-      rel="modulepreload"
-      href="assets/chunks/chunk-CF0Whru-.js"
-      as="script"
-      type="text/javascript"
-    />
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </body>
 </html>
