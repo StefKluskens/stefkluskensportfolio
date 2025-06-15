@@ -1,0 +1,948 @@
+<!doctype html>
+<html
+  lang="en"
+  data-ws-project="2d142a5a-28d7-4e6c-b5fe-e02a211865ae"
+  data-ws-last-published="2025-06-15T10:55:05.755Z"
+>
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/assets/static/app_generated_index-6937cd5a.DKLlbRRi.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta property="og:url" content="https://url/style-guide" />
+    <title>Style Guide</title>
+    <meta property="og:title" content="Style Guide" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Stef Kluskens Portfolio" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/assets/logo_r1qaJQiri6sK3rPyq-Sar.svg" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Stef Kluskens Portfolio",
+        "url": "https://url"
+      }
+    </script>
+  </head>
+  <body id="top" class="w-body w-body-2">
+    <div class="w-box w-style-guide">
+      <div class="w-box w-container-1">
+        <div class="w-box w-header">
+          <h1 class="w-heading w-heading-1">Style Guide</h1>
+          <div class="w-text w-version">Craft Version 1.0</div>
+          <p class="w-paragraph w-paragraph-1">
+            Here is the community style guide according to
+            <a
+              href="https://docs.webstudio.is/university/craft"
+              target="_blank"
+              class="w-rich-text-link w-rich-text-link-2"
+              >Craft</a
+            >, the recommended starting point for Webstudio Projects.
+            <a
+              href="https://docs.webstudio.is/university/foundations/css-variables"
+              target="_blank"
+              class="w-rich-text-link w-rich-text-link-3"
+              >CSS variables</a
+            >
+            containing colors, sizes, and more are on the Global Root.
+          </p>
+        </div>
+        <div id="layout" class="w-box w-layout">
+          <div class="w-box w-header-1">
+            <h2 class="w-heading w-heading-13">Layout</h2>
+          </div>
+          <div class="w-box w-items-2">
+            <div class="w-box w-item-1">
+              <div class="w-text w-token-7">section</div>
+            </div>
+            <div class="w-box w-item">
+              <div class="w-text w-token-4">container</div>
+            </div>
+            <div class="w-box w-item-6">
+              <div class="w-box w-box-1">
+                <div class="w-text w-badge">grid</div>
+              </div>
+              <div class="w-box w-grid-col">
+                <p class="w-paragraph">
+                  Grid quickly provides the properties to create a grid. Once
+                  added, switch over to Local and type in your template columns.
+                </p>
+              </div>
+              <div class="w-box w-grid-col-1">
+                <p class="w-paragraph">
+                  Note, grid turns into flex on 767. This is because grid
+                  children may use start/end columns and would require us to
+                  reset each one manually on mobile. By setting the parent to
+                  flex, those values are ignored.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="colors" class="w-box w-colors">
+          <div class="w-box w-header-9">
+            <h2 class="w-heading w-heading-15">Colors</h2>
+            <p class="w-paragraph w-description">
+              Change these values on the Global Root. It&#x27;s best practice to
+              map semantic variables such as
+              <span class="w-text-1 w-text-4">--foreground-primary</span> to
+              another variable such as
+              <span class="w-text-1 w-text-5">--gray-10</span>.
+            </p>
+          </div>
+          <h3 class="w-heading w-heading-16">Foreground</h3>
+          <div class="w-box w-items-8">
+            <div class="w-box w-item-7">
+              <div class="w-text w-css-variable">--foreground-primary</div>
+              <div class="w-box w-color-palette"></div>
+            </div>
+            <div class="w-box w-item-8">
+              <div class="w-text w-css-variable-1">--foreground-secondary</div>
+              <div class="w-box w-color-palette-1"></div>
+            </div>
+            <div class="w-box w-item-9">
+              <div class="w-text w-css-variable-2">--foreground-accent</div>
+              <div class="w-box w-color-palette-2"></div>
+            </div>
+            <div class="w-box w-item-10">
+              <div class="w-text w-css-variable-3">--foreground-muted</div>
+              <div class="w-box w-color-palette-3"></div>
+            </div>
+            <div class="w-box w-item-11">
+              <div class="w-text w-css-variable-4">--foreground-border</div>
+              <div class="w-box w-color-palette-4"></div>
+            </div>
+          </div>
+          <h3 class="w-heading w-heading-17">Background</h3>
+          <div class="w-box w-items-9">
+            <div class="w-box w-item-12">
+              <div class="w-text w-css-variable-5">--background-primary</div>
+              <div class="w-box w-color-palette-5"></div>
+            </div>
+            <div class="w-box w-item-13">
+              <div class="w-text w-css-variable-6">--background-secondary</div>
+              <div class="w-box w-color-palette-6"></div>
+            </div>
+            <div class="w-box w-item-14">
+              <div class="w-text w-css-variable-7">--background-accent</div>
+              <div class="w-box w-color-palette-7"></div>
+            </div>
+            <div class="w-box w-item-15">
+              <div class="w-text w-css-variable-8">--background-card</div>
+              <div class="w-box w-color-palette-8"></div>
+            </div>
+          </div>
+          <h3 class="w-heading w-heading-18">Other</h3>
+          <div class="w-box w-items-10">
+            <div class="w-box w-item-16">
+              <div class="w-text w-css-variable-9">--focus-color</div>
+              <div class="w-box w-color-palette-9"></div>
+            </div>
+            <div class="w-box w-item-24">
+              <div class="w-text w-css-variable-10">invert-theme</div>
+              <div class="w-box w-color-palette-10">
+                <div class="w-text">Text</div>
+              </div>
+              <p class="w-paragraph">
+                Sets the background to the opposite (dark) and makes
+                <span class="w-text-1 w-text-10">--foreground-muted</span> a
+                proper contrast ratio.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="links-buttons" class="w-box w-links-and-buttons">
+          <div class="w-box w-header-2">
+            <h2 class="w-heading w-heading-12">Buttons and Links</h2>
+          </div>
+          <div class="w-box w-items-1">
+            <div class="w-box w-buttons">
+              <div class="w-text w-token-6">button-group</div>
+              <div class="w-box w-button-group">
+                <a class="w-link w-button-1" href="#"
+                  ><span class="w-text">button</span>
+                  <div class="w-html-embed w-icon-2">
+                    <svg
+                      width="100%"
+                      height="100%"
+                      viewBox="0 0 6 11"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M5.63335 4.87364L1.51379 0.759206C1.16776 0.413598 0.605566 0.413598 0.259528 0.759206C-0.0865095 1.10481 -0.0865095 1.66631 0.259528 2.01191L3.75196 5.5L0.259528 8.9881C-0.0865095 9.3337 -0.0865095 9.8952 0.259528 10.2408C0.432545 10.4136 0.65957 10.5 0.886652 10.5C1.11373 10.5 1.34078 10.4136 1.51378 10.2408L5.63333 6.12637C5.97937 5.78076 5.97937 5.21927 5.63333 4.87366L5.63335 4.87364Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg></div></a
+                ><a class="w-link w-button-secondary" href="#"
+                  >is-button-secondary</a
+                ><a class="w-link w-link-5" href="#"
+                  ><span class="w-text">is-button-small</span>
+                  <div class="w-html-embed w-icon-3">
+                    <svg
+                      width="100%"
+                      height="100%"
+                      viewBox="0 0 6 11"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M5.63335 4.87364L1.51379 0.759206C1.16776 0.413598 0.605566 0.413598 0.259528 0.759206C-0.0865095 1.10481 -0.0865095 1.66631 0.259528 2.01191L3.75196 5.5L0.259528 8.9881C-0.0865095 9.3337 -0.0865095 9.8952 0.259528 10.2408C0.432545 10.4136 0.65957 10.5 0.886652 10.5C1.11373 10.5 1.34078 10.4136 1.51378 10.2408L5.63333 6.12637C5.97937 5.78076 5.97937 5.21927 5.63333 4.87366L5.63335 4.87364Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg></div
+                ></a>
+              </div>
+            </div>
+            <div class="w-box w-links">
+              <div class="w-text w-token-5">link</div>
+              <a class="w-link w-link-1" href="#">Link text you can edit</a
+              ><a class="w-link w-link-2" href="#">is-link-nav</a>
+            </div>
+          </div>
+        </div>
+        <div id="elements" class="w-box w-elements">
+          <div class="w-box w-header-3">
+            <h2 class="w-heading w-heading-11">Elements</h2>
+          </div>
+          <div class="w-box w-items-7">
+            <div class="w-text w-token">heading-1|2|3|4|5|6</div>
+            <h1 class="w-heading w-heading-1-1">
+              Heading 1 text <br />you can edit
+            </h1>
+            <h1 class="w-heading w-heading-2">
+              Heading 2 text <br />you can edit
+            </h1>
+            <h1 class="w-heading w-heading-3">
+              Heading 3 text <br />you can edit
+            </h1>
+            <h1 class="w-heading w-heading-4">
+              Heading 4 text <br />you can edit
+            </h1>
+            <h1 class="w-heading w-heading-5">
+              Heading 5 text <br />you can edit
+            </h1>
+            <h1 class="w-heading w-heading-6">
+              Heading 6 text <br />you can edit
+            </h1>
+            <p class="w-paragraph">
+              Paragraph
+              <a class="w-rich-text-link w-rich-text-link-4" href="#"
+                >text you</a
+              >
+              can edit<br />that spans multiple lines
+            </p>
+            <blockquote class="w-blockquote w-blockquote-1">
+              <span class="w-text-1 w-text-3">blockquote</span> text you can
+              edit
+            </blockquote>
+            <div class="w-text w-token-2">list</div>
+            <ul class="w-list w-list-1">
+              <li class="w-list-item w-list-item-1">
+                <span class="w-text-1 w-text-2">list-item</span> text you can
+                edit
+              </li>
+              <li class="w-list-item w-list-item-2">
+                List Item text you can edit
+              </li>
+              <li class="w-list-item w-list-item-3">
+                List Item text you can edit
+              </li>
+            </ul>
+            <div class="w-text w-token-3">separator</div>
+            <hr class="w-separator w-separator-1" />
+            <div class="w-text w-token-1">code</div>
+            <code lang="" class="w-code-text w-code-text-1"
+              >console.log(&quot;Hello World&quot;);</code
+            >
+          </div>
+        </div>
+        <div id="forms" class="w-box w-forms">
+          <div class="w-box w-header-4">
+            <h2 class="w-heading w-heading-10">Forms</h2>
+          </div>
+          <div class="w-box w-items-3">
+            <div class="w-box w-item-2">
+              <div class="w-text w-token-8">my-token</div>
+            </div>
+          </div>
+        </div>
+        <div id="radix" class="w-box w-radix">
+          <div class="w-box w-header-5">
+            <h2 class="w-heading w-heading-9">Radix</h2>
+          </div>
+          <div class="w-box w-items-4">
+            <div class="w-box w-item-5">
+              <div class="w-text w-token-9">my-token</div>
+            </div>
+          </div>
+        </div>
+        <div id="utility" class="w-box w-utility">
+          <div class="w-box w-header-6">
+            <h2 class="w-heading w-heading-14">Utility</h2>
+          </div>
+          <div class="w-box w-items-5">
+            <div class="w-box w-item-4">
+              <div class="w-text w-token-10">my-token</div>
+            </div>
+          </div>
+        </div>
+        <div id="slots" class="w-box w-slots">
+          <div class="w-box w-header-10">
+            <h2 class="w-heading w-heading-19">Slots</h2>
+          </div>
+          <div class="w-box w-items-11">
+            <div class="w-box w-item-17">
+              <div class="w-text w-token-12">my-slot</div>
+            </div>
+          </div>
+        </div>
+        <div id="custom" class="w-box w-custom">
+          <div class="w-box w-header-7">
+            <h2 class="w-heading w-heading-8">Custom</h2>
+          </div>
+          <div class="w-box w-items-6">
+            <div class="w-box w-item-21">
+              <div class="w-text w-token-15">badge</div>
+              <div class="w-text w-text-6">The text you can edit</div>
+            </div>
+            <div class="w-box w-item-3">
+              <div class="w-text w-token-11">Card</div>
+              <div class="w-box w-card">
+                <div class="w-box w-secondary">
+                  <img
+                    alt="Laptop on desk"
+                    class="w-image w-image-1"
+                    src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSIxNDAiCiAgaGVpZ2h0PSIxNDAiCiAgdmlld0JveD0iMCAwIDYwMCA2MDAiCiAgZmlsbD0ibm9uZSIKICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgPgogIDxyZWN0IHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIiBmaWxsPSIjREZFM0U2IiAvPgogIDxwYXRoCiAgICBmaWxsLXJ1bGU9ImV2ZW5vZGQiCiAgICBjbGlwLXJ1bGU9ImV2ZW5vZGQiCiAgICBkPSJNNDUwIDE3MEgxNTBDMTQxLjcxNiAxNzAgMTM1IDE3Ni43MTYgMTM1IDE4NVY0MTVDMTM1IDQyMy4yODQgMTQxLjcxNiA0MzAgMTUwIDQzMEg0NTBDNDU4LjI4NCA0MzAgNDY1IDQyMy4yODQgNDY1IDQxNVYxODVDNDY1IDE3Ni43MTYgNDU4LjI4NCAxNzAgNDUwIDE3MFpNMTUwIDE0NUMxMjcuOTA5IDE0NSAxMTAgMTYyLjkwOSAxMTAgMTg1VjQxNUMxMTAgNDM3LjA5MSAxMjcuOTA5IDQ1NSAxNTAgNDU1SDQ1MEM0NzIuMDkxIDQ1NSA0OTAgNDM3LjA5MSA0OTAgNDE1VjE4NUM0OTAgMTYyLjkwOSA0NzIuMDkxIDE0NSA0NTAgMTQ1SDE1MFoiCiAgICBmaWxsPSIjQzFDOENEIgogIC8+CiAgPHBhdGgKICAgIGQ9Ik0yMzcuMTM1IDIzNS4wMTJDMjM3LjEzNSAyNTUuNzIzIDIyMC4zNDUgMjcyLjUxMiAxOTkuNjM1IDI3Mi41MTJDMTc4LjkyNCAyNzIuNTEyIDE2Mi4xMzUgMjU1LjcyMyAxNjIuMTM1IDIzNS4wMTJDMTYyLjEzNSAyMTQuMzAxIDE3OC45MjQgMTk3LjUxMiAxOTkuNjM1IDE5Ny41MTJDMjIwLjM0NSAxOTcuNTEyIDIzNy4xMzUgMjE0LjMwMSAyMzcuMTM1IDIzNS4wMTJaIgogICAgZmlsbD0iI0MxQzhDRCIKICAvPgogIDxwYXRoCiAgICBkPSJNMTYwIDQwNVYzNjcuMjA1TDIyMS42MDkgMzA2LjM2NEwyNTYuNTUyIDMzOC42MjhMMzU4LjE2MSAyMzRMNDQwIDMxNi4wNDNWNDA1SDE2MFoiCiAgICBmaWxsPSIjQzFDOENEIgogIC8+Cjwvc3ZnPg=="
+                    decoding="async"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="w-box w-content-1">
+                  <div class="w-box w-top-1">
+                    <div class="w-text w-text-8">The text you can edit</div>
+                    <h3 class="w-heading w-heading-22">
+                      Heading text you can edit
+                    </h3>
+                    <p class="w-paragraph">Paragraph text you can edit</p>
+                  </div>
+                  <div class="w-box">
+                    <a class="w-link w-link-4" href="#"
+                      >Link text you can edit</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-box w-item-19">
+              <div class="w-text w-token-13">is-card-horizontal</div>
+              <div class="w-box w-card-1">
+                <div class="w-box w-secondary-1">
+                  <img
+                    alt="Laptop on desk"
+                    class="w-image w-image-2"
+                    src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSIxNDAiCiAgaGVpZ2h0PSIxNDAiCiAgdmlld0JveD0iMCAwIDYwMCA2MDAiCiAgZmlsbD0ibm9uZSIKICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgPgogIDxyZWN0IHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIiBmaWxsPSIjREZFM0U2IiAvPgogIDxwYXRoCiAgICBmaWxsLXJ1bGU9ImV2ZW5vZGQiCiAgICBjbGlwLXJ1bGU9ImV2ZW5vZGQiCiAgICBkPSJNNDUwIDE3MEgxNTBDMTQxLjcxNiAxNzAgMTM1IDE3Ni43MTYgMTM1IDE4NVY0MTVDMTM1IDQyMy4yODQgMTQxLjcxNiA0MzAgMTUwIDQzMEg0NTBDNDU4LjI4NCA0MzAgNDY1IDQyMy4yODQgNDY1IDQxNVYxODVDNDY1IDE3Ni43MTYgNDU4LjI4NCAxNzAgNDUwIDE3MFpNMTUwIDE0NUMxMjcuOTA5IDE0NSAxMTAgMTYyLjkwOSAxMTAgMTg1VjQxNUMxMTAgNDM3LjA5MSAxMjcuOTA5IDQ1NSAxNTAgNDU1SDQ1MEM0NzIuMDkxIDQ1NSA0OTAgNDM3LjA5MSA0OTAgNDE1VjE4NUM0OTAgMTYyLjkwOSA0NzIuMDkxIDE0NSA0NTAgMTQ1SDE1MFoiCiAgICBmaWxsPSIjQzFDOENEIgogIC8+CiAgPHBhdGgKICAgIGQ9Ik0yMzcuMTM1IDIzNS4wMTJDMjM3LjEzNSAyNTUuNzIzIDIyMC4zNDUgMjcyLjUxMiAxOTkuNjM1IDI3Mi41MTJDMTc4LjkyNCAyNzIuNTEyIDE2Mi4xMzUgMjU1LjcyMyAxNjIuMTM1IDIzNS4wMTJDMTYyLjEzNSAyMTQuMzAxIDE3OC45MjQgMTk3LjUxMiAxOTkuNjM1IDE5Ny41MTJDMjIwLjM0NSAxOTcuNTEyIDIzNy4xMzUgMjE0LjMwMSAyMzcuMTM1IDIzNS4wMTJaIgogICAgZmlsbD0iI0MxQzhDRCIKICAvPgogIDxwYXRoCiAgICBkPSJNMTYwIDQwNVYzNjcuMjA1TDIyMS42MDkgMzA2LjM2NEwyNTYuNTUyIDMzOC42MjhMMzU4LjE2MSAyMzRMNDQwIDMxNi4wNDNWNDA1SDE2MFoiCiAgICBmaWxsPSIjQzFDOENEIgogIC8+Cjwvc3ZnPg=="
+                    decoding="async"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="w-box w-content">
+                  <div class="w-box w-top">
+                    <div class="w-text w-text-7">The text you can edit</div>
+                    <h3 class="w-heading w-heading-21">
+                      Heading text you can edit
+                    </h3>
+                    <p class="w-paragraph">Paragraph text you can edit</p>
+                  </div>
+                  <div class="w-box">
+                    <a class="w-link w-link-3" href="#"
+                      >Link text you can edit</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-box w-item-20">
+              <div class="w-text w-token-14">Testimonial</div>
+              <div class="w-box w-testimonial">
+                <p class="w-paragraph w-quote">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <div class="w-box w-person">
+                  <img
+                    alt="Picture of client"
+                    class="w-image w-picture"
+                    src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSIxNDAiCiAgaGVpZ2h0PSIxNDAiCiAgdmlld0JveD0iMCAwIDYwMCA2MDAiCiAgZmlsbD0ibm9uZSIKICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgPgogIDxyZWN0IHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIiBmaWxsPSIjREZFM0U2IiAvPgogIDxwYXRoCiAgICBmaWxsLXJ1bGU9ImV2ZW5vZGQiCiAgICBjbGlwLXJ1bGU9ImV2ZW5vZGQiCiAgICBkPSJNNDUwIDE3MEgxNTBDMTQxLjcxNiAxNzAgMTM1IDE3Ni43MTYgMTM1IDE4NVY0MTVDMTM1IDQyMy4yODQgMTQxLjcxNiA0MzAgMTUwIDQzMEg0NTBDNDU4LjI4NCA0MzAgNDY1IDQyMy4yODQgNDY1IDQxNVYxODVDNDY1IDE3Ni43MTYgNDU4LjI4NCAxNzAgNDUwIDE3MFpNMTUwIDE0NUMxMjcuOTA5IDE0NSAxMTAgMTYyLjkwOSAxMTAgMTg1VjQxNUMxMTAgNDM3LjA5MSAxMjcuOTA5IDQ1NSAxNTAgNDU1SDQ1MEM0NzIuMDkxIDQ1NSA0OTAgNDM3LjA5MSA0OTAgNDE1VjE4NUM0OTAgMTYyLjkwOSA0NzIuMDkxIDE0NSA0NTAgMTQ1SDE1MFoiCiAgICBmaWxsPSIjQzFDOENEIgogIC8+CiAgPHBhdGgKICAgIGQ9Ik0yMzcuMTM1IDIzNS4wMTJDMjM3LjEzNSAyNTUuNzIzIDIyMC4zNDUgMjcyLjUxMiAxOTkuNjM1IDI3Mi41MTJDMTc4LjkyNCAyNzIuNTEyIDE2Mi4xMzUgMjU1LjcyMyAxNjIuMTM1IDIzNS4wMTJDMTYyLjEzNSAyMTQuMzAxIDE3OC45MjQgMTk3LjUxMiAxOTkuNjM1IDE5Ny41MTJDMjIwLjM0NSAxOTcuNTEyIDIzNy4xMzUgMjE0LjMwMSAyMzcuMTM1IDIzNS4wMTJaIgogICAgZmlsbD0iI0MxQzhDRCIKICAvPgogIDxwYXRoCiAgICBkPSJNMTYwIDQwNVYzNjcuMjA1TDIyMS42MDkgMzA2LjM2NEwyNTYuNTUyIDMzOC42MjhMMzU4LjE2MSAyMzRMNDQwIDMxNi4wNDNWNDA1SDE2MFoiCiAgICBmaWxsPSIjQzFDOENEIgogIC8+Cjwvc3ZnPg=="
+                    decoding="async"
+                    loading="lazy"
+                  />
+                  <div class="w-text w-name">Client Name</div>
+                </div>
+                <div class="w-text w-mark">“</div>
+              </div>
+            </div>
+            <div class="w-box w-item-22">
+              <div class="w-text w-token-16">Section Header</div>
+              <div class="w-box w-header-12">
+                <h1 class="w-heading w-heading-25">Case Studies</h1>
+                <p class="w-paragraph w-paragraph-5">
+                  Solving user &amp; business problems since last 15+
+                  years. Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div class="w-box w-item-23">
+              <div class="w-text w-token-17">my-token</div>
+            </div>
+          </div>
+        </div>
+        <div id="notes" class="w-box w-notes">
+          <div class="w-box w-header-8">
+            <h2 class="w-heading w-heading-7">Notes</h2>
+            <p class="w-paragraph w-paragraph-2">
+              Add notes for yourself or other creators that explain any nuances
+              of the build.
+            </p>
+          </div>
+          <div class="w-box w-items">
+            <div class="w-box w-item-18">
+              <p class="w-paragraph">
+                The following CSS variables were the modifications or additions
+                made to the default
+                <a
+                  href="https://wstd.us/craft"
+                  target="_blank"
+                  class="w-rich-text-link w-rich-text-link-5"
+                  >Craft</a
+                >
+                variables, jyfi.
+              </p>
+              <code lang="css" class="w-code-text w-code-text-2"
+                >--foreground-primary: var(--gray-12); --foreground-muted:
+                var(--gray-6); --foreground-accent: var(--green-8);
+                --foreground-border: var(--gray-11); --background-primary:
+                var(--gray-0); --background-secondary: var(--gray-12);
+                --background-tertiary: var(--gray-11); --background-accent:
+                var(--foreground-accent); --background-card:
+                var(--background-primary); --shadow-accent: 0px 8px 30px
+                rgba(63, 142, 0, 0.5); --font-family-primary: &quot;IBM Plex
+                Mono&quot;, Arial; --font-family-secondary: &quot;Raleway&quot;,
+                Arial; --gray-0: #FFFFFF; --gray-2: #F8F8F8; --gray-4: #D8D8D8;
+                --gray-6: #9C9C9C; --gray-7: #757575; --gray-11: #1B1B1B;
+                --gray-12: #080808; --green-0: #E0FFF8; --green-6: #62BA1B;
+                --green-7: #3F8E00; --green-8: #398000; --blue-2: #D0E6FF;
+                --blue-7: #000AFF; --teal-6: #2AB090; --teal-9: #1d7b65;
+                --orange-9: #99610e; --orange-7: #FFA217; --orange-0: #FFF6E9;
+                --gray-1: unset; --gray-3: unset; --gray-5: unset; --gray-8:
+                unset; --gray-9: unset; --gray-10: unset; --green-1: unset;
+                --green-2: unset; --green-3: unset; --green-4: unset; --green-5:
+                unset; --green-9: unset; --green-10: unset; --green-11: unset;
+                --green-12: unset; --blue-0: unset; --blue-1: unset; --blue-3:
+                unset; --blue-4: unset; --blue-5: unset; --blue-6: unset;
+                --blue-8: unset; --blue-9: unset; --blue-10: unset; --blue-11:
+                unset; --blue-12: unset; --teal-0: #E0FFF8; --teal-1: unset;
+                --teal-2: unset; --teal-3: unset; --teal-4: unset; --teal-5:
+                unset; --teal-7: unset; --teal-8: unset; --teal-10: unset;
+                --teal-11: unset; --teal-12: unset; --orange-1: unset;
+                --orange-2: unset; --orange-3: unset; --orange-4: unset;
+                --orange-5: unset; --orange-6: unset; --orange-8: unset;
+                --orange-10: unset; --orange-11: unset; --orange-12: unset;
+                --yellow-1: unset; --yellow-2: unset; --yellow-3: unset;
+                --yellow-4: unset; --yellow-5: unset; --yellow-6: unset;
+                --yellow-7: unset; --yellow-8: unset; --yellow-9: unset;
+                --yellow-10: unset; --yellow-11: unset; --yellow-12: unset;
+                --gap-m: var(--size-fluid-5); --gap-s: var(--size-fluid-3);
+                --gradient-1: linear-gradient(to right, #484848 0%, rgba(27, 27,
+                27, 0) 100%);
+              </code>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="w-box w-nav">
+        <div class="w-box w-container-2">
+          <a href="/style-guide#layout" class="w-link w-layout-1">Layout</a
+          ><a href="/style-guide#colors" class="w-link w-colors-1">Colors</a
+          ><a href="/style-guide#links-buttons" class="w-link w-links-buttons"
+            >Links &amp; Buttons</a
+          ><a href="/style-guide#elements" class="w-link w-typography"
+            >Elements</a
+          ><a href="/style-guide#forms" class="w-link w-forms-1">Forms</a
+          ><a href="/style-guide#radix" class="w-link w-radix-1">Radix</a
+          ><a href="/style-guide#utility" class="w-link w-utility-1">Utility</a
+          ><a href="/style-guide" class="w-link w-slots-1">Slots</a
+          ><a href="/style-guide#custom" class="w-link w-custom-1">Custom</a
+          ><a href="/style-guide#notes" class="w-link w-notes-1">Notes</a>
+        </div>
+      </nav>
+    </div>
+    <div class="w-box w-template-for-new-pages">
+      <h2 class="w-heading w-heading-20">👇Template for new pages👇</h2>
+      <p class="w-paragraph w-paragraph-3">
+        When creating a new page, you can copy the &quot;Page Wrapper&quot;
+        instance below (see navigator) and paste it on the new page. It contains
+        the skeleton of a page, including a nav, footer, and section.
+      </p>
+    </div>
+    <div class="w-box">
+      <div style="display: contents">
+        <div style="display: contents">
+          <div class="w-html-embed">
+            <style>
+              * {
+                /* Remove preset margins on everything so they can be applied where we want. */
+                margin: 0;
+                /* Make links scroll to their sections smoothly. */
+                scroll-behavior: smooth;
+              }
+            </style>
+          </div>
+          <div class="w-box w-wrapper">
+            <nav class="w-box w-nav-desktop">
+              <div style="display: contents">
+                <div style="display: contents">
+                  <div class="w-box w-primary">
+                    <a href="/" class="w-link w-link-6">Home</a
+                    ><a href="/#projects" class="w-link w-link-7">Projects</a
+                    ><a href="/#contact" class="w-link w-link-8">Contact</a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+            <div data-state="closed" class="w-collapsible w-nav-mobile">
+              <button
+                type="button"
+                aria-label="Open mobile menu"
+                class="w-button w-button-2"
+                aria-controls="radix-:Rku:"
+                aria-expanded="false"
+                data-state="closed"
+              >
+                <div class="w-html-embed w-icon-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="100%"
+                    height="100%"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-menu"
+                  >
+                    <line x1="4" x2="20" y1="12" y2="12"></line>
+                    <line x1="4" x2="20" y1="6" y2="6"></line>
+                    <line x1="4" x2="20" y1="18" y2="18"></line>
+                  </svg>
+                </div>
+              </button>
+              <div
+                data-state="closed"
+                id="radix-:Rku:"
+                hidden=""
+                data-ani="expand"
+                class="w-collapsible-content w-collapsible-content-1"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main class="w-box">
+        <section class="w-box w-section">
+          <div class="w-box w-container"></div>
+        </section>
+      </main>
+      <div style="display: contents">
+        <div style="display: contents">
+          <footer id="contact" class="w-box w-footer">
+            <div class="w-box w-bottom">
+              <div class="w-box w-container-5">
+                <div class="w-text w-text-9">Stef Kluskens</div>
+                <div class="w-element w-links-1">
+                  <a
+                    href="https://www.linkedin.com/in/stef-kluskens/"
+                    class="w-link w-linked-in"
+                    ><img
+                      alt=""
+                      width="50"
+                      height="50"
+                      src="/assets/icons8-linkedin-50_xibFCqXRmEeJ3e-cpSIHb.png"
+                      class="w-image"
+                      sizes="100vw"
+                      srcset="
+                        /assets/icons8-linkedin-50_xibFCqXRmEeJ3e-cpSIHb.png  16w,
+                        /assets/icons8-linkedin-50_xibFCqXRmEeJ3e-cpSIHb.png  32w,
+                        /assets/icons8-linkedin-50_xibFCqXRmEeJ3e-cpSIHb.png  48w,
+                        /assets/icons8-linkedin-50_xibFCqXRmEeJ3e-cpSIHb.png  64w,
+                        /assets/icons8-linkedin-50_xibFCqXRmEeJ3e-cpSIHb.png  96w,
+                        /assets/icons8-linkedin-50_xibFCqXRmEeJ3e-cpSIHb.png 128w
+                      "
+                      decoding="async"
+                      loading="lazy" /></a
+                  ><a
+                    href="https://github.com/StefKluskens"
+                    class="w-link w-github"
+                    ><img
+                      alt=""
+                      width="50"
+                      height="50"
+                      src="/assets/icons8-github-50_-t9Hm5FvV_YFD_kePsM3Z.png"
+                      class="w-image"
+                      sizes="100vw"
+                      srcset="
+                        /assets/icons8-github-50_-t9Hm5FvV_YFD_kePsM3Z.png  16w,
+                        /assets/icons8-github-50_-t9Hm5FvV_YFD_kePsM3Z.png  32w,
+                        /assets/icons8-github-50_-t9Hm5FvV_YFD_kePsM3Z.png  48w,
+                        /assets/icons8-github-50_-t9Hm5FvV_YFD_kePsM3Z.png  64w,
+                        /assets/icons8-github-50_-t9Hm5FvV_YFD_kePsM3Z.png  96w,
+                        /assets/icons8-github-50_-t9Hm5FvV_YFD_kePsM3Z.png 128w
+                      "
+                      decoding="async"
+                      loading="lazy"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </footer>
+          <div style="display: contents">
+            <div style="display: contents">
+              <div class="w-html-embed">
+                <style>
+                  :root {
+                    --ani-duration: var(--duration-default, 0.2s);
+                    --ani-delay: 0s;
+                    --ani-slide-offset: 20%;
+                    --ani-zoom-in-scale: 1;
+                    --ani-zoom-out-scale: 0.85;
+                    --ani-flip-rotate: 30deg;
+                    --ani-easing: var(--easing-default, ease);
+                    --ani-fill-mode: forwards;
+                  }
+                  [data-ani]:not([data-ani-children]),
+                  [data-ani-children]:not([data-ani-progress]) > * {
+                    animation-duration: var(--ani-duration);
+                    animation-delay: var(--ani-delay);
+                    animation-timing-function: var(--ani-easing);
+                    animation-fill-mode: var(--ani-fill-mode);
+                    opacity: 0;
+                  }
+                  [data-ani-progress]:not([data-ani-children]),
+                  [data-ani-children]:not([data-ani]) > * {
+                    transition-property: opacity, transform;
+                    transition-duration: var(--ani-duration);
+                    transition-timing-function: var(--ani-easing);
+                    opacity: 0;
+                  }
+                  @keyframes fadeIn {
+                    from {
+                      opacity: 0;
+                    }
+                    to {
+                      opacity: 1;
+                    }
+                  }
+                  @keyframes fadeOut {
+                    from {
+                      opacity: 1;
+                    }
+                    to {
+                      opacity: 0;
+                    }
+                  }
+                  [data-ani-children][data-ani="fade"] > .in,
+                  [data-ani="fade"]:where(
+                      .in:not([data-state]),
+                      [data-state$="open"],
+                      [data-state="active"]
+                    ) {
+                    animation-name: fadeIn;
+                  }
+                  [data-ani-children][data-ani="fade"] > .out,
+                  [data-ani="fade"]:where(
+                      .out:not([data-state]),
+                      [data-state="closed"],
+                      [data-state="inactive"]
+                    ) {
+                    animation-name: fadeOut;
+                  }
+                  @keyframes slideIn {
+                    from {
+                      opacity: 0;
+                      translate: var(--ani-slide-transform);
+                    }
+                    to {
+                      opacity: 1;
+                      translate: none;
+                    }
+                  }
+                  @keyframes slideOut {
+                    from {
+                      opacity: 1;
+                      translate: none;
+                    }
+                    to {
+                      opacity: 0;
+                      translate: var(--ani-slide-transform);
+                    }
+                  }
+                  [data-ani-children][data-ani|="slide"] > .in,
+                  [data-ani|="slide"]:where(
+                      .in:not([data-state]),
+                      [data-state$="open"],
+                      [data-state="active"]
+                    ) {
+                    animation-name: slideIn;
+                  }
+                  [data-ani-children][data-ani|="slide"] > .out,
+                  [data-ani|="slide"]:where(
+                      .out:not([data-state]),
+                      [data-state="closed"],
+                      [data-state="inactive"]
+                    ) {
+                    animation-name: slideOut;
+                  }
+                  [data-ani="slide-up"] {
+                    --ani-slide-transform: 0 var(--ani-slide-offset);
+                  }
+                  [data-ani="slide-down"] {
+                    --ani-slide-transform: 0 calc(-1 * var(--ani-slide-offset));
+                  }
+                  [data-ani="slide-left"] {
+                    --ani-slide-transform: var(--ani-slide-offset);
+                  }
+                  [data-ani="slide-right"] {
+                    --ani-slide-transform: calc(-1 * var(--ani-slide-offset));
+                  }
+                  @keyframes zoomIn {
+                    from {
+                      opacity: 0;
+                      scale: var(--ani-zoom-out-scale);
+                    }
+                    to {
+                      opacity: 1;
+                      scale: 1;
+                    }
+                  }
+                  @keyframes zoomOut {
+                    from {
+                      opacity: 1;
+                      scale: 1;
+                    }
+                    to {
+                      opacity: 0;
+                      scale: var(--ani-zoom-in-scale);
+                    }
+                  }
+                  [data-ani-children][data-ani="zoom"] > .in,
+                  [data-ani|="zoom"]:where(
+                      .in:not([data-state]),
+                      [data-state$="open"],
+                      [data-state="active"]
+                    ) {
+                    animation-name: zoomIn;
+                  }
+                  [data-ani-children][data-ani="zoom"] > .out,
+                  [data-ani|="zoom"]:where(
+                      .out:not([data-state]),
+                      [data-state="closed"],
+                      [data-state="inactive"]
+                    ) {
+                    animation-name: zoomOut;
+                  }
+                  [data-ani-children][data-ani-progress="zoom"] > *,
+                  [data-ani-progress="zoom"]:not([data-ani-children]) {
+                    transform: scale(var(--ani-zoom-out-scale));
+                  }
+                  @keyframes flipInY {
+                    from {
+                      rotate: y var(--ani-flip-rotate);
+                      perspective: 2000px;
+                      opacity: 0;
+                    }
+                    to {
+                      rotate: y 0;
+                      opacity: 1;
+                    }
+                  }
+                  @keyframes flipOutY {
+                    from {
+                      rotate: y 0;
+                      opacity: 1;
+                    }
+                    to {
+                      perspective: 2000px;
+                      rotate: y var(--ani-flip-rotate);
+                      opacity: 0;
+                    }
+                  }
+                  @keyframes flipInX {
+                    from {
+                      perspective: 2000px;
+                      rotate: x var(--ani-flip-rotate);
+                      opacity: 0;
+                    }
+                    to {
+                      rotate: x 0;
+                      opacity: 1;
+                    }
+                  }
+                  @keyframes flipOutX {
+                    from {
+                      rotate: x 0;
+                      opacity: 1;
+                    }
+                    to {
+                      perspective: 2000px;
+                      rotate: x var(--ani-flip-rotate);
+                      opacity: 0;
+                    }
+                  }
+                  [data-ani-children][data-ani="flip-y"] > .in,
+                  [data-ani="flip-y"]:where(
+                      .in:not([data-state]),
+                      [data-state$="open"],
+                      [data-state="active"]
+                    ) {
+                    animation-name: flipInY;
+                  }
+                  [data-ani-children][data-ani="flip-x"] > .in,
+                  [data-ani="flip-x"]:where(
+                      .in:not([data-state]),
+                      [data-state$="open"],
+                      [data-state="active"]
+                    ) {
+                    animation-name: flipInX;
+                  }
+                  [data-ani-children][data-ani="flip-y"] > .out,
+                  [data-ani="flip-y"]:where(
+                      .out:not([data-state]),
+                      [data-state="closed"],
+                      [data-state="inactive"]
+                    ) {
+                    animation-name: flipOutY;
+                  }
+                  [data-ani-children][data-ani="flip-x"] > .out,
+                  [data-ani="flip-x"]:where(
+                      .out:not([data-state]),
+                      [data-state="closed"],
+                      [data-state="inactive"]
+                    ) {
+                    animation-name: flipOutX;
+                  }
+                  @keyframes expandDown {
+                    from {
+                      height: 0;
+                    }
+                    to {
+                      height: var(--newHeight);
+                    }
+                  }
+                  @keyframes expandUp {
+                    from {
+                      height: var(--newHeight);
+                    }
+                    to {
+                      height: 0;
+                    }
+                  }
+                  [data-ani="expand"],
+                  [data-ani="expand"][data-state="open"],
+                  [data-ani="expand"].in {
+                    --newHeight: var(
+                      --custom-height,
+                      var(
+                        --radix-accordion-content-height,
+                        var(--radix-collapsible-content-height, 100%)
+                      )
+                    );
+                    overflow: hidden;
+                    opacity: 1;
+                  }
+                  [data-ani-children][data-ani="expand"] > .in,
+                  [data-ani="expand"]:where(
+                      .in:not([data-state]),
+                      [data-state$="open"],
+                      [data-state="active"]
+                    ) {
+                    animation: expandDown var(--ani-duration) var(--ani-easing);
+                  }
+                  [data-ani-children][data-ani="expand"] > .out,
+                  [data-ani="expand"]:where(
+                      .out:not([data-state]),
+                      [data-state="closed"],
+                      [data-state="inactive"]
+                    ) {
+                    animation: expandUp var(--ani-duration) var(--ani-easing);
+                  }
+                  @media (prefers-reduced-motion: reduce) {
+                    [data-ani]:not([data-ani-children]),
+                    [data-ani-progress]:not([data-ani-children]),
+                    [data-ani-children] > * {
+                      opacity: 1;
+                      transform: none;
+                      animation: none;
+                      rotate: none;
+                      scale: none;
+                      translate: none;
+                    }
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script id="vike_pageContext" type="application/json">
+      {
+        "_urlRewrite": null,
+        "pageId": "/pages/style-guide",
+        "routeParams": {},
+        "data": {
+          "url": "https://url/style-guide",
+          "system": { "params": {}, "search": {}, "origin": "https://url" },
+          "resources": {},
+          "pageMeta": {
+            "title": "Style Guide",
+            "description": "",
+            "excludePageFromSearch": true,
+            "language": "",
+            "socialImageAssetName": "!undefined",
+            "socialImageUrl": "",
+            "status": 200,
+            "redirect": "",
+            "custom": []
+          }
+        }
+      }
+    </script>
+    <script id="vike_globalContext" type="application/json">
+      {}
+    </script>
+    <script
+      src="/assets/entries/entry-server-routing.o5NOBO9l.js"
+      type="module"
+      async
+    ></script>
+    <link
+      rel="modulepreload"
+      href="/assets/entries/pages_style-guide.CIGqqL8A.js"
+      as="script"
+      type="text/javascript"
+    /><link
+      rel="modulepreload"
+      href="/assets/chunks/chunk-CF0Whru-.js"
+      as="script"
+      type="text/javascript"
+    />
+  </body>
+</html>
